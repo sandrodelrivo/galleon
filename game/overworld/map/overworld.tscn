@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://overworld/map/overworld.gd" type="Script" id=1]
+[ext_resource path="res://overworld/map/openocean_w_crappy_islands.tex" type="Texture" id=2]
+[ext_resource path="res://overworld/player/player.tscn" type="PackedScene" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+transform/pos = Vector2( 20.3627, 5.70155 )
+script/script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+
+transform/pos = Vector2( 302.373, 314.972 )
+texture = ExtResource( 2 )
+
+[node name="player" parent="." instance=ExtResource( 3 )]
+
+transform/pos = Vector2( 218.11, 177.666 )
+
+[node name="get-quest" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 152.0
+margin/top = 64.0
+margin/right = 164.0
+margin/bottom = 84.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Click for Quest"
+flat = false
+
+

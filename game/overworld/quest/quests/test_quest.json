@@ -1,0 +1,13 @@
+{
+  "id" : "test-quest",
+  "display-name" : "Test Quest",
+  "description" : "Example description for the test quest.",
+  "stage" : 0,
+  "completion-type": "Yes",
+  "completion-trigger": "Might be removed.",
+  "completion-quantitiy": 0,
+  "starting-loc": "example town",
+  "start-script": "res://overworld/quest/quests/test_quest.gd",
+  "end-script": "res://overworld/quest/quests/end_script.gd"
+
+}

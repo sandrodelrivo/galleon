@@ -1,0 +1,13 @@
+{
+  "id" : "id",
+  "display-name" : "display name",
+  "description" : "quest description",
+  "stage" : 0,
+  "completion-type": "completion type",
+  "completion-trigger": "example-signal",
+  "completion-quantitiy": 0,
+  "starting-loc": "example town",
+  "start-script": "example.gd",
+  "end-script": "example.gd"
+
+}
