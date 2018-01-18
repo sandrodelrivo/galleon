@@ -1,37 +1,52 @@
-[gd_scene load_steps=4 format=1]
+[gd_scene load_steps=5 format=1]
 
 [ext_resource path="res://overworld/map/overworld.gd" type="Script" id=1]
-[ext_resource path="res://overworld/map/openocean_w_crappy_islands.tex" type="Texture" id=2]
+[ext_resource path="res://overworld/map/map.tscn" type="PackedScene" id=2]
 [ext_resource path="res://overworld/player/player.tscn" type="PackedScene" id=3]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="NavigationPolygon" id=1]
 
-transform/pos = Vector2( 20.3627, 5.70155 )
+vertices = Vector2Array( 619.551, -18.1757, 617.501, 621.591, 208.253, 135.322, 207.713, 115.87, 189.881, 175.849, -19.8527, 621.112, 172.049, 176.93, -20.0618, 170.478, -2.23001, 170.478, 8.57713, 160.752, 17.2228, 147.243, 51.2653, 146.162, 65.855, 146.162, 156.635, -21.3487, 201.229, 105.063, 166.902, 12.6938, 174.211, 106.143, 134.48, 75.3752, 127.456, 62.9469, 129.617, 51.5995, 133.94, 37.0098, 155.554, 36.4695, 36.6757, 140.218, 87.4692, 139.137, 154.758, 128.838, 100.438, 117.523, 127.456, 87.263, 166.902, 29.9852, 157.175, -5.67838 )
+polygons = [ IntArray( 0, 1, 2, 3 ), IntArray( 4, 2, 1 ), IntArray( 4, 1, 5, 6 ), IntArray( 6, 5, 7, 8 ), IntArray( 6, 8, 9 ), IntArray( 6, 9, 10, 11, 12 ), IntArray( 13, 0, 3, 14, 15 ), IntArray( 16, 17, 18, 19, 20, 21, 14 ), IntArray( 10, 22, 11 ), IntArray( 6, 12, 23, 24 ), IntArray( 24, 23, 25, 26, 16 ), IntArray( 16, 26, 17 ), IntArray( 14, 21, 27 ), IntArray( 15, 28, 13 ), IntArray( 15, 14, 27 ) ]
+outlines = [ Vector2Array( 156.635, -21.3487, 157.175, -5.67838, 166.902, 12.6938, 166.902, 29.9852, 155.554, 36.4695, 133.94, 37.0098, 129.617, 51.5995, 127.456, 62.9469, 134.48, 75.3752, 127.456, 87.263, 100.438, 117.523, 87.4692, 139.137, 65.855, 146.162, 51.2653, 146.162, 36.6757, 140.218, 17.2228, 147.243, 8.57713, 160.752, -2.23001, 170.478, -20.0618, 170.478, -19.8527, 621.112, 617.501, 621.591, 619.551, -18.1757 ), Vector2Array( 174.211, 106.143, 201.229, 105.063, 207.713, 115.87, 208.253, 135.322, 189.881, 175.849, 172.049, 176.93, 154.758, 128.838 ) ]
+
+[node name="overworld" type="Node2D"]
+
 script/script = ExtResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="."]
+[node name="map" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 302.373, 314.972 )
-texture = ExtResource( 2 )
+transform/pos = Vector2( 300, 300 )
 
 [node name="player" parent="." instance=ExtResource( 3 )]
 
-transform/pos = Vector2( 218.11, 177.666 )
+transform/pos = Vector2( 173.774, 219.879 )
 
-[node name="get-quest" type="Button" parent="."]
+[node name="camera" type="Camera2D" parent="player"]
 
-focus/ignore_mouse = false
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 2
-margin/left = 152.0
-margin/top = 64.0
-margin/right = 164.0
-margin/bottom = 84.0
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-text = "Click for Quest"
-flat = false
+transform/pos = Vector2( -242.367, -158.452 )
+anchor_mode = 0
+rotating = false
+current = true
+zoom = Vector2( 0.5, 0.5 )
+limit/left = -10000000
+limit/top = -10000000
+limit/right = 10000000
+limit/bottom = 10000000
+drag_margin/h_enabled = true
+drag_margin/v_enabled = true
+smoothing/enable = true
+smoothing/speed = 5.0
+drag_margin/left = 0.2
+drag_margin/top = 0.2
+drag_margin/right = 0.2
+drag_margin/bottom = 0.2
+
+[node name="navigation" type="Navigation2D" parent="."]
+
+[node name="worldmesh" type="NavigationPolygonInstance" parent="navigation"]
+
+navpoly = SubResource( 1 )
+enabled = true
 
 
