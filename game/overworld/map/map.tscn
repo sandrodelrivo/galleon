@@ -1,11 +1,5 @@
-[gd_scene load_steps=2 format=1]
-
-[ext_resource path="res://overworld/map/openocean_w_crappy_islands.tex" type="Texture" id=1]
+[gd_scene format=1]
 
 [node name="Node2D" type="Node2D"]
-
-[node name="Sprite" type="Sprite" parent="."]
-
-texture = ExtResource( 1 )
 
 
