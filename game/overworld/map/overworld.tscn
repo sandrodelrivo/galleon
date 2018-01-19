@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=1]
 
 [ext_resource path="res://overworld/map/overworld.gd" type="Script" id=1]
-[ext_resource path="res://overworld/map/map.tscn" type="PackedScene" id=2]
-[ext_resource path="res://overworld/player/player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://overworld/player/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://overworld/map/anim_map.tscn" type="PackedScene" id=3]
 
 [sub_resource type="NavigationPolygon" id=1]
 
@@ -14,11 +14,7 @@ outlines = [ Vector2Array( 156.635, -21.3487, 157.175, -5.67838, 166.902, 12.693
 
 script/script = ExtResource( 1 )
 
-[node name="map" parent="." instance=ExtResource( 2 )]
-
-transform/pos = Vector2( 300, 300 )
-
-[node name="player" parent="." instance=ExtResource( 3 )]
+[node name="player" parent="." instance=ExtResource( 2 )]
 
 transform/pos = Vector2( 173.774, 219.879 )
 
@@ -48,5 +44,9 @@ drag_margin/bottom = 0.2
 
 navpoly = SubResource( 1 )
 enabled = true
+
+[node name="anim_map" parent="." instance=ExtResource( 3 )]
+
+transform/pos = Vector2( -15.6055, 73.1507 )
 
 
