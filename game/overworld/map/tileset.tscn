@@ -1,4 +1,4 @@
-[gd_scene load_steps=147 format=1]
+[gd_scene load_steps=148 format=1]
 
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/dirt.png" type="Texture" id=1]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/sand.png" type="Texture" id=2]
@@ -167,7 +167,13 @@ shader_param/frame2 = ExtResource( 8 )
 shader_param/frame3 = ExtResource( 9 )
 shader_param/frame4 = ExtResource( 10 )
 
-[sub_resource type="CanvasItemMaterial" id=3]
+[sub_resource type="NavigationPolygon" id=3]
+
+vertices = Vector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+polygons = [ IntArray( 0, 1, 2, 3 ) ]
+outlines = [ Vector2Array( 32, 32, 0, 32, 0, 0, 32, 0 ) ]
+
+[sub_resource type="CanvasItemMaterial" id=4]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -176,7 +182,7 @@ shader_param/frame2 = ExtResource( 12 )
 shader_param/frame3 = ExtResource( 13 )
 shader_param/frame4 = ExtResource( 14 )
 
-[sub_resource type="CanvasItemMaterial" id=4]
+[sub_resource type="CanvasItemMaterial" id=5]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -185,7 +191,7 @@ shader_param/frame2 = ExtResource( 16 )
 shader_param/frame3 = ExtResource( 17 )
 shader_param/frame4 = ExtResource( 18 )
 
-[sub_resource type="CanvasItemMaterial" id=5]
+[sub_resource type="CanvasItemMaterial" id=6]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -194,7 +200,7 @@ shader_param/frame2 = ExtResource( 20 )
 shader_param/frame3 = ExtResource( 21 )
 shader_param/frame4 = ExtResource( 22 )
 
-[sub_resource type="CanvasItemMaterial" id=6]
+[sub_resource type="CanvasItemMaterial" id=7]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -203,7 +209,7 @@ shader_param/frame2 = ExtResource( 24 )
 shader_param/frame3 = ExtResource( 25 )
 shader_param/frame4 = ExtResource( 26 )
 
-[sub_resource type="CanvasItemMaterial" id=7]
+[sub_resource type="CanvasItemMaterial" id=8]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -212,7 +218,7 @@ shader_param/frame2 = ExtResource( 28 )
 shader_param/frame3 = ExtResource( 29 )
 shader_param/frame4 = ExtResource( 30 )
 
-[sub_resource type="CanvasItemMaterial" id=8]
+[sub_resource type="CanvasItemMaterial" id=9]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -221,7 +227,7 @@ shader_param/frame2 = ExtResource( 32 )
 shader_param/frame3 = ExtResource( 33 )
 shader_param/frame4 = ExtResource( 34 )
 
-[sub_resource type="CanvasItemMaterial" id=9]
+[sub_resource type="CanvasItemMaterial" id=10]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -230,7 +236,7 @@ shader_param/frame2 = ExtResource( 36 )
 shader_param/frame3 = ExtResource( 37 )
 shader_param/frame4 = ExtResource( 38 )
 
-[sub_resource type="CanvasItemMaterial" id=10]
+[sub_resource type="CanvasItemMaterial" id=11]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -239,7 +245,7 @@ shader_param/frame2 = ExtResource( 40 )
 shader_param/frame3 = ExtResource( 41 )
 shader_param/frame4 = ExtResource( 42 )
 
-[sub_resource type="CanvasItemShader" id=11]
+[sub_resource type="CanvasItemShader" id=12]
 
 _code = {
 "fragment": "uniform texture frame1;
@@ -297,9 +303,9 @@ COLOR = col;
 "vertex_ofs": 0
 }
 
-[sub_resource type="CanvasItemMaterial" id=12]
+[sub_resource type="CanvasItemMaterial" id=13]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 43 )
 shader_param/frame2 = ExtResource( 44 )
@@ -310,9 +316,9 @@ shader_param/frame6 = ExtResource( 46 )
 shader_param/frame7 = ExtResource( 45 )
 shader_param/frame8 = ExtResource( 44 )
 
-[sub_resource type="CanvasItemMaterial" id=13]
+[sub_resource type="CanvasItemMaterial" id=14]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 48 )
 shader_param/frame2 = ExtResource( 49 )
@@ -323,9 +329,9 @@ shader_param/frame6 = ExtResource( 51 )
 shader_param/frame7 = ExtResource( 50 )
 shader_param/frame8 = ExtResource( 49 )
 
-[sub_resource type="CanvasItemMaterial" id=14]
+[sub_resource type="CanvasItemMaterial" id=15]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 53 )
 shader_param/frame2 = ExtResource( 54 )
@@ -336,9 +342,9 @@ shader_param/frame6 = ExtResource( 56 )
 shader_param/frame7 = ExtResource( 55 )
 shader_param/frame8 = ExtResource( 54 )
 
-[sub_resource type="CanvasItemMaterial" id=15]
+[sub_resource type="CanvasItemMaterial" id=16]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 58 )
 shader_param/frame2 = ExtResource( 59 )
@@ -349,9 +355,9 @@ shader_param/frame6 = ExtResource( 61 )
 shader_param/frame7 = ExtResource( 60 )
 shader_param/frame8 = ExtResource( 59 )
 
-[sub_resource type="CanvasItemMaterial" id=16]
+[sub_resource type="CanvasItemMaterial" id=17]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 63 )
 shader_param/frame2 = ExtResource( 64 )
@@ -362,9 +368,9 @@ shader_param/frame6 = ExtResource( 66 )
 shader_param/frame7 = ExtResource( 65 )
 shader_param/frame8 = ExtResource( 64 )
 
-[sub_resource type="CanvasItemMaterial" id=17]
+[sub_resource type="CanvasItemMaterial" id=18]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 68 )
 shader_param/frame2 = ExtResource( 69 )
@@ -375,9 +381,9 @@ shader_param/frame6 = ExtResource( 71 )
 shader_param/frame7 = ExtResource( 70 )
 shader_param/frame8 = ExtResource( 69 )
 
-[sub_resource type="CanvasItemMaterial" id=18]
+[sub_resource type="CanvasItemMaterial" id=19]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 73 )
 shader_param/frame2 = ExtResource( 74 )
@@ -388,9 +394,9 @@ shader_param/frame6 = ExtResource( 76 )
 shader_param/frame7 = ExtResource( 75 )
 shader_param/frame8 = ExtResource( 74 )
 
-[sub_resource type="CanvasItemMaterial" id=19]
+[sub_resource type="CanvasItemMaterial" id=20]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 78 )
 shader_param/frame2 = ExtResource( 79 )
@@ -401,9 +407,9 @@ shader_param/frame6 = ExtResource( 81 )
 shader_param/frame7 = ExtResource( 80 )
 shader_param/frame8 = ExtResource( 79 )
 
-[sub_resource type="CanvasItemMaterial" id=20]
+[sub_resource type="CanvasItemMaterial" id=21]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 83 )
 shader_param/frame2 = ExtResource( 84 )
@@ -414,9 +420,9 @@ shader_param/frame6 = ExtResource( 86 )
 shader_param/frame7 = ExtResource( 85 )
 shader_param/frame8 = ExtResource( 84 )
 
-[sub_resource type="CanvasItemMaterial" id=21]
+[sub_resource type="CanvasItemMaterial" id=22]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 88 )
 shader_param/frame2 = ExtResource( 89 )
@@ -427,9 +433,9 @@ shader_param/frame6 = ExtResource( 91 )
 shader_param/frame7 = ExtResource( 90 )
 shader_param/frame8 = ExtResource( 89 )
 
-[sub_resource type="CanvasItemMaterial" id=22]
+[sub_resource type="CanvasItemMaterial" id=23]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 93 )
 shader_param/frame2 = ExtResource( 94 )
@@ -440,9 +446,9 @@ shader_param/frame6 = ExtResource( 96 )
 shader_param/frame7 = ExtResource( 95 )
 shader_param/frame8 = ExtResource( 94 )
 
-[sub_resource type="CanvasItemMaterial" id=23]
+[sub_resource type="CanvasItemMaterial" id=24]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 98 )
 shader_param/frame2 = ExtResource( 99 )
@@ -453,9 +459,9 @@ shader_param/frame6 = ExtResource( 101 )
 shader_param/frame7 = ExtResource( 100 )
 shader_param/frame8 = ExtResource( 99 )
 
-[sub_resource type="CanvasItemMaterial" id=24]
+[sub_resource type="CanvasItemMaterial" id=25]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 103 )
 shader_param/frame2 = ExtResource( 104 )
@@ -466,9 +472,9 @@ shader_param/frame6 = ExtResource( 106 )
 shader_param/frame7 = ExtResource( 105 )
 shader_param/frame8 = ExtResource( 104 )
 
-[sub_resource type="CanvasItemMaterial" id=25]
+[sub_resource type="CanvasItemMaterial" id=26]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 108 )
 shader_param/frame2 = ExtResource( 109 )
@@ -479,9 +485,9 @@ shader_param/frame6 = ExtResource( 111 )
 shader_param/frame7 = ExtResource( 110 )
 shader_param/frame8 = ExtResource( 109 )
 
-[sub_resource type="CanvasItemMaterial" id=26]
+[sub_resource type="CanvasItemMaterial" id=27]
 
-shader/shader = SubResource( 11 )
+shader/shader = SubResource( 12 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 113 )
 shader_param/frame2 = ExtResource( 114 )
@@ -492,7 +498,7 @@ shader_param/frame6 = ExtResource( 118 )
 shader_param/frame7 = ExtResource( 119 )
 shader_param/frame8 = ExtResource( 120 )
 
-[node name="Node2D" type="Node2D"]
+[node name="tileset" type="Node"]
 
 [node name="dirt" type="Sprite" parent="."]
 
@@ -531,170 +537,279 @@ centered = false
 
 [node name="shoreline" type="Sprite" parent="."]
 
+editor/display_folded = true
 material/material = SubResource( 2 )
 transform/pos = Vector2( 0, 32 )
 texture = ExtResource( 7 )
 centered = false
 
+[node name="NavigationPolygonInstance" type="NavigationPolygonInstance" parent="shoreline"]
+
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="shoreline_bottom" type="Sprite" parent="."]
 
-material/material = SubResource( 3 )
+material/material = SubResource( 4 )
 transform/pos = Vector2( 32, 32 )
 texture = ExtResource( 12 )
 centered = false
 
 [node name="shoreline_bottom_left" type="Sprite" parent="."]
 
-material/material = SubResource( 4 )
+material/material = SubResource( 5 )
 transform/pos = Vector2( 64, 32 )
 texture = ExtResource( 15 )
 centered = false
 
 [node name="shoreline_bottom_right" type="Sprite" parent="."]
 
-material/material = SubResource( 5 )
+material/material = SubResource( 6 )
 transform/pos = Vector2( 96, 32 )
 texture = ExtResource( 19 )
 centered = false
 
 [node name="shoreline_left" type="Sprite" parent="."]
 
-material/material = SubResource( 6 )
+material/material = SubResource( 7 )
 transform/pos = Vector2( 128, 32 )
 texture = ExtResource( 23 )
 centered = false
 
 [node name="shoreline_right" type="Sprite" parent="."]
 
-material/material = SubResource( 7 )
+material/material = SubResource( 8 )
 transform/pos = Vector2( 160, 32 )
 texture = ExtResource( 27 )
 centered = false
 
 [node name="shoreline_top" type="Sprite" parent="."]
 
-material/material = SubResource( 8 )
+material/material = SubResource( 9 )
 transform/pos = Vector2( 192, 32 )
 texture = ExtResource( 31 )
 centered = false
 
 [node name="shoreline_top_left" type="Sprite" parent="."]
 
-material/material = SubResource( 9 )
+material/material = SubResource( 10 )
 transform/pos = Vector2( 224, 32 )
 texture = ExtResource( 35 )
 centered = false
 
 [node name="shoreline_top_right" type="Sprite" parent="."]
 
-material/material = SubResource( 10 )
+material/material = SubResource( 11 )
 transform/pos = Vector2( 256, 32 )
 texture = ExtResource( 39 )
 centered = false
 
 [node name="shoreline_to_ocean" type="Sprite" parent="."]
 
-material/material = SubResource( 12 )
+editor/display_folded = true
+material/material = SubResource( 13 )
 transform/pos = Vector2( 288, 32 )
 texture = ExtResource( 43 )
 centered = false
 
+[node name="NavigationPolygonInstance1" type="NavigationPolygonInstance" parent="shoreline_to_ocean"]
+
+transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_bottom_left" type="Sprite" parent="."]
 
-material/material = SubResource( 13 )
+editor/display_folded = true
+material/material = SubResource( 14 )
 transform/pos = Vector2( 0, 64 )
 texture = ExtResource( 48 )
 centered = false
 
+[node name="NavigationPolygonInstance2" type="NavigationPolygonInstance" parent="ocean_bottom_left"]
+
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_bottom_right" type="Sprite" parent="."]
 
-material/material = SubResource( 14 )
+editor/display_folded = true
+material/material = SubResource( 15 )
 transform/pos = Vector2( 32, 64 )
 texture = ExtResource( 53 )
 centered = false
 
+[node name="NavigationPolygonInstance3" type="NavigationPolygonInstance" parent="ocean_bottom_right"]
+
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_top_left" type="Sprite" parent="."]
 
-material/material = SubResource( 15 )
+editor/display_folded = true
+material/material = SubResource( 16 )
 transform/pos = Vector2( 64, 64 )
 texture = ExtResource( 58 )
 centered = false
 
+[node name="NavigationPolygonInstance4" type="NavigationPolygonInstance" parent="ocean_top_left"]
+
+transform/pos = Vector2( -1.90735e-06, -1.90735e-06 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_top_right" type="Sprite" parent="."]
 
-material/material = SubResource( 16 )
+editor/display_folded = true
+material/material = SubResource( 17 )
 transform/pos = Vector2( 96, 64 )
 texture = ExtResource( 63 )
 centered = false
 
+[node name="NavigationPolygonInstance5" type="NavigationPolygonInstance" parent="ocean_top_right"]
+
+transform/pos = Vector2( -9.53674e-07, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light" type="Sprite" parent="."]
 
-material/material = SubResource( 17 )
+editor/display_folded = true
+material/material = SubResource( 18 )
 transform/pos = Vector2( 128, 64 )
 texture = ExtResource( 68 )
 centered = false
 
+[node name="NavigationPolygonInstance6" type="NavigationPolygonInstance" parent="ocean_light"]
+
+transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light_bottom" type="Sprite" parent="."]
 
-material/material = SubResource( 18 )
+editor/display_folded = true
+material/material = SubResource( 19 )
 transform/pos = Vector2( 160, 64 )
 texture = ExtResource( 73 )
 centered = false
 
+[node name="NavigationPolygonInstance7" type="NavigationPolygonInstance" parent="ocean_light_bottom"]
+
+transform/pos = Vector2( -3.57628e-06, -7.15256e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light_bottom_left" type="Sprite" parent="."]
 
-material/material = SubResource( 19 )
+editor/display_folded = true
+material/material = SubResource( 20 )
 transform/pos = Vector2( 192, 64 )
 texture = ExtResource( 78 )
 centered = false
 
+[node name="NavigationPolygonInstance8" type="NavigationPolygonInstance" parent="ocean_light_bottom_left"]
+
+transform/pos = Vector2( 1.90735e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light_bottom_right" type="Sprite" parent="."]
 
-material/material = SubResource( 20 )
+editor/display_folded = true
+material/material = SubResource( 21 )
 transform/pos = Vector2( 224, 64 )
 texture = ExtResource( 83 )
 centered = false
 
+[node name="NavigationPolygonInstance9" type="NavigationPolygonInstance" parent="ocean_light_bottom_right"]
+
+transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light_left" type="Sprite" parent="."]
 
-material/material = SubResource( 21 )
+editor/display_folded = true
+material/material = SubResource( 22 )
 transform/pos = Vector2( 256, 64 )
 texture = ExtResource( 88 )
 centered = false
 
+[node name="NavigationPolygonInstance10" type="NavigationPolygonInstance" parent="ocean_light_left"]
+
+transform/pos = Vector2( 7.62939e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light_right" type="Sprite" parent="."]
 
-material/material = SubResource( 22 )
+editor/display_folded = true
+material/material = SubResource( 23 )
 transform/pos = Vector2( 288, 64 )
 texture = ExtResource( 93 )
 centered = false
 
+[node name="NavigationPolygonInstance11" type="NavigationPolygonInstance" parent="ocean_light_right"]
+
+transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light_top" type="Sprite" parent="."]
 
-material/material = SubResource( 23 )
+editor/display_folded = true
+material/material = SubResource( 24 )
 transform/pos = Vector2( 320, 64 )
 texture = ExtResource( 98 )
 centered = false
 
+[node name="NavigationPolygonInstance12" type="NavigationPolygonInstance" parent="ocean_light_top"]
+
+transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light_top_left" type="Sprite" parent="."]
 
-material/material = SubResource( 24 )
+editor/display_folded = true
+material/material = SubResource( 25 )
 transform/pos = Vector2( 352, 64 )
 texture = ExtResource( 103 )
 centered = false
 
+[node name="NavigationPolygonInstance13" type="NavigationPolygonInstance" parent="ocean_light_top_left"]
+
+transform/pos = Vector2( 7.62939e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_light_top_right" type="Sprite" parent="."]
 
-material/material = SubResource( 25 )
+editor/display_folded = true
+material/material = SubResource( 26 )
 transform/pos = Vector2( 384, 64 )
 texture = ExtResource( 108 )
 centered = false
 
+[node name="NavigationPolygonInstance14" type="NavigationPolygonInstance" parent="ocean_light_top_right"]
+
+transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
+
 [node name="ocean_to_shoreline" type="Sprite" parent="."]
 
-material/material = SubResource( 26 )
+editor/display_folded = true
+material/material = SubResource( 27 )
 transform/pos = Vector2( 416, 64 )
 texture = ExtResource( 113 )
 centered = false
+
+[node name="NavigationPolygonInstance15" type="NavigationPolygonInstance" parent="ocean_to_shoreline"]
+
+transform/pos = Vector2( -1.52588e-05, -9.53674e-07 )
+navpoly = SubResource( 3 )
+enabled = true
 
 

@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=147 format=1]
+[gd_resource type="TileSet" load_steps=151 format=1]
 
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/dirt.png" type="Texture" id=1]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/sand.png" type="Texture" id=2]
@@ -274,7 +274,13 @@ shader_param/frame6 = ExtResource( 26 )
 shader_param/frame7 = ExtResource( 25 )
 shader_param/frame8 = ExtResource( 24 )
 
-[sub_resource type="CanvasItemMaterial" id=9]
+[sub_resource type="NavigationPolygon" id=9]
+
+vertices = Vector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+polygons = [ IntArray( 0, 1, 2, 3 ) ]
+outlines = [ Vector2Array( 32, 32, 0, 32, 0, 0, 32, 0 ) ]
+
+[sub_resource type="CanvasItemMaterial" id=10]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -287,7 +293,7 @@ shader_param/frame6 = ExtResource( 31 )
 shader_param/frame7 = ExtResource( 30 )
 shader_param/frame8 = ExtResource( 29 )
 
-[sub_resource type="CanvasItemMaterial" id=10]
+[sub_resource type="CanvasItemMaterial" id=11]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -300,7 +306,7 @@ shader_param/frame6 = ExtResource( 36 )
 shader_param/frame7 = ExtResource( 35 )
 shader_param/frame8 = ExtResource( 34 )
 
-[sub_resource type="CanvasItemMaterial" id=11]
+[sub_resource type="CanvasItemMaterial" id=12]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -313,7 +319,7 @@ shader_param/frame6 = ExtResource( 41 )
 shader_param/frame7 = ExtResource( 40 )
 shader_param/frame8 = ExtResource( 39 )
 
-[sub_resource type="CanvasItemMaterial" id=12]
+[sub_resource type="CanvasItemMaterial" id=13]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -326,7 +332,7 @@ shader_param/frame6 = ExtResource( 46 )
 shader_param/frame7 = ExtResource( 45 )
 shader_param/frame8 = ExtResource( 44 )
 
-[sub_resource type="CanvasItemMaterial" id=13]
+[sub_resource type="CanvasItemMaterial" id=14]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -339,7 +345,7 @@ shader_param/frame6 = ExtResource( 52 )
 shader_param/frame7 = ExtResource( 51 )
 shader_param/frame8 = ExtResource( 50 )
 
-[sub_resource type="CanvasItemMaterial" id=14]
+[sub_resource type="CanvasItemMaterial" id=15]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -352,7 +358,7 @@ shader_param/frame6 = ExtResource( 57 )
 shader_param/frame7 = ExtResource( 56 )
 shader_param/frame8 = ExtResource( 55 )
 
-[sub_resource type="CanvasItemMaterial" id=15]
+[sub_resource type="CanvasItemMaterial" id=16]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -365,7 +371,7 @@ shader_param/frame6 = ExtResource( 62 )
 shader_param/frame7 = ExtResource( 61 )
 shader_param/frame8 = ExtResource( 60 )
 
-[sub_resource type="CanvasItemMaterial" id=16]
+[sub_resource type="CanvasItemMaterial" id=17]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -378,7 +384,7 @@ shader_param/frame6 = ExtResource( 67 )
 shader_param/frame7 = ExtResource( 66 )
 shader_param/frame8 = ExtResource( 65 )
 
-[sub_resource type="CanvasItemMaterial" id=17]
+[sub_resource type="CanvasItemMaterial" id=18]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -391,7 +397,7 @@ shader_param/frame6 = ExtResource( 72 )
 shader_param/frame7 = ExtResource( 71 )
 shader_param/frame8 = ExtResource( 70 )
 
-[sub_resource type="CanvasItemMaterial" id=18]
+[sub_resource type="CanvasItemMaterial" id=19]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -404,7 +410,7 @@ shader_param/frame6 = ExtResource( 77 )
 shader_param/frame7 = ExtResource( 76 )
 shader_param/frame8 = ExtResource( 75 )
 
-[sub_resource type="CanvasItemMaterial" id=19]
+[sub_resource type="CanvasItemMaterial" id=20]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -417,7 +423,7 @@ shader_param/frame6 = ExtResource( 82 )
 shader_param/frame7 = ExtResource( 81 )
 shader_param/frame8 = ExtResource( 80 )
 
-[sub_resource type="CanvasItemMaterial" id=20]
+[sub_resource type="CanvasItemMaterial" id=21]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -430,7 +436,7 @@ shader_param/frame6 = ExtResource( 87 )
 shader_param/frame7 = ExtResource( 86 )
 shader_param/frame8 = ExtResource( 85 )
 
-[sub_resource type="CanvasItemMaterial" id=21]
+[sub_resource type="CanvasItemMaterial" id=22]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -443,7 +449,7 @@ shader_param/frame6 = ExtResource( 92 )
 shader_param/frame7 = ExtResource( 91 )
 shader_param/frame8 = ExtResource( 90 )
 
-[sub_resource type="CanvasItemMaterial" id=22]
+[sub_resource type="CanvasItemMaterial" id=23]
 
 shader/shader = SubResource( 7 )
 shader/shading_mode = 0
@@ -456,7 +462,84 @@ shader_param/frame6 = ExtResource( 99 )
 shader_param/frame7 = ExtResource( 100 )
 shader_param/frame8 = ExtResource( 101 )
 
-[sub_resource type="CanvasItemMaterial" id=23]
+[sub_resource type="CanvasItemShader" id=24]
+
+_code = {
+"fragment": "uniform texture frame1;
+uniform texture frame2;
+uniform texture frame3;
+uniform texture frame4;
+uniform texture frame5;
+uniform texture frame6;
+uniform texture frame7;
+uniform texture frame8;
+float frames = 8.0;
+float frameLength = 0.2;
+
+float time = fract(TIME/(frames*frameLength))*frames;
+color col;
+
+if (time < 1) {
+	col = tex(frame1, UV);
+} else{ 
+	if (time < 2) {
+		col = tex(frame2, UV);
+	} else{ 
+		if (time < 3) {
+			col = tex(frame3, UV);
+		} else{ 
+			if (time < 4) {
+				col = tex(frame4, UV);
+			} else{ 
+				if (time < 5) {
+					col = tex(frame5, UV);
+				} else{ 
+					if (time < 6) {
+						col = tex(frame6, UV);
+					} else{ 
+						if (time < 7) {
+							col = tex(frame7, UV);
+						} else{ 
+							if (time < 8) {
+								col = tex(frame8, UV);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+COLOR = col;
+",
+"fragment_ofs": 0,
+"light": "",
+"light_ofs": 0,
+"vertex": "",
+"vertex_ofs": 0
+}
+
+[sub_resource type="CanvasItemMaterial" id=25]
+
+shader/shader = SubResource( 24 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 49 )
+shader_param/frame2 = ExtResource( 50 )
+shader_param/frame3 = ExtResource( 51 )
+shader_param/frame4 = ExtResource( 52 )
+shader_param/frame5 = ExtResource( 53 )
+shader_param/frame6 = ExtResource( 52 )
+shader_param/frame7 = ExtResource( 51 )
+shader_param/frame8 = ExtResource( 50 )
+
+[sub_resource type="NavigationPolygon" id=26]
+
+vertices = Vector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+polygons = [ IntArray( 0, 1, 2, 3, 0 ) ]
+outlines = [ Vector2Array( 0, 0, 32, 0, 32, 32, 0, 32, 0, 0 ) ]
+
+[sub_resource type="CanvasItemMaterial" id=27]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -465,7 +548,7 @@ shader_param/frame2 = ExtResource( 106 )
 shader_param/frame3 = ExtResource( 107 )
 shader_param/frame4 = ExtResource( 108 )
 
-[sub_resource type="CanvasItemMaterial" id=24]
+[sub_resource type="CanvasItemMaterial" id=28]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -474,7 +557,7 @@ shader_param/frame2 = ExtResource( 110 )
 shader_param/frame3 = ExtResource( 111 )
 shader_param/frame4 = ExtResource( 112 )
 
-[sub_resource type="CanvasItemMaterial" id=25]
+[sub_resource type="CanvasItemMaterial" id=29]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -483,7 +566,7 @@ shader_param/frame2 = ExtResource( 114 )
 shader_param/frame3 = ExtResource( 115 )
 shader_param/frame4 = ExtResource( 116 )
 
-[sub_resource type="CanvasItemMaterial" id=26]
+[sub_resource type="CanvasItemMaterial" id=30]
 
 shader/shader = SubResource( 1 )
 shader/shading_mode = 0
@@ -563,11 +646,12 @@ shader_param/frame4 = ExtResource( 120 )
 6/name = "shoreline"
 6/texture = ExtResource( 105 )
 6/tex_offset = Vector2( 0, 0 )
-6/material = SubResource( 23 )
+6/material = SubResource( 27 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 0, 0, 32, 32 )
 6/occluder_offset = Vector2( 0, 0 )
 6/navigation_offset = Vector2( 0, 0 )
+6/navigation = SubResource( 9 )
 6/shape_offset = Vector2( 0, 0 )
 6/shapes = [  ]
 6/one_way_collision_direction = Vector2( 0, 0 )
@@ -575,7 +659,7 @@ shader_param/frame4 = ExtResource( 120 )
 7/name = "shoreline_bottom"
 7/texture = ExtResource( 110 )
 7/tex_offset = Vector2( 0, 0 )
-7/material = SubResource( 24 )
+7/material = SubResource( 28 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 0, 0, 32, 32 )
 7/occluder_offset = Vector2( 0, 0 )
@@ -587,7 +671,7 @@ shader_param/frame4 = ExtResource( 120 )
 8/name = "shoreline_bottom_left"
 8/texture = ExtResource( 113 )
 8/tex_offset = Vector2( 0, 0 )
-8/material = SubResource( 25 )
+8/material = SubResource( 29 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 0, 0, 32, 32 )
 8/occluder_offset = Vector2( 0, 0 )
@@ -599,7 +683,7 @@ shader_param/frame4 = ExtResource( 120 )
 9/name = "shoreline_bottom_right"
 9/texture = ExtResource( 117 )
 9/tex_offset = Vector2( 0, 0 )
-9/material = SubResource( 26 )
+9/material = SubResource( 30 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 0, 0, 32, 32 )
 9/occluder_offset = Vector2( 0, 0 )
@@ -657,7 +741,7 @@ shader_param/frame4 = ExtResource( 120 )
 13/one_way_collision_direction = Vector2( 0, 0 )
 13/one_way_collision_max_depth = 0.0
 14/name = "shoreline_top_right"
-14/texture = ExtResource( 15 )
+14/texture = ExtResource( 19 )
 14/tex_offset = Vector2( 0, 0 )
 14/material = SubResource( 6 )
 14/modulate = Color( 1, 1, 1, 1 )
@@ -676,6 +760,7 @@ shader_param/frame4 = ExtResource( 120 )
 15/region = Rect2( 0, 0, 32, 32 )
 15/occluder_offset = Vector2( 0, 0 )
 15/navigation_offset = Vector2( 0, 0 )
+15/navigation = SubResource( 9 )
 15/shape_offset = Vector2( 0, 0 )
 15/shapes = [  ]
 15/one_way_collision_direction = Vector2( 0, 0 )
@@ -683,11 +768,12 @@ shader_param/frame4 = ExtResource( 120 )
 16/name = "ocean_bottom_left"
 16/texture = ExtResource( 28 )
 16/tex_offset = Vector2( 0, 0 )
-16/material = SubResource( 9 )
+16/material = SubResource( 10 )
 16/modulate = Color( 1, 1, 1, 1 )
 16/region = Rect2( 0, 0, 32, 32 )
 16/occluder_offset = Vector2( 0, 0 )
 16/navigation_offset = Vector2( 0, 0 )
+16/navigation = SubResource( 9 )
 16/shape_offset = Vector2( 0, 0 )
 16/shapes = [  ]
 16/one_way_collision_direction = Vector2( 0, 0 )
@@ -695,11 +781,12 @@ shader_param/frame4 = ExtResource( 120 )
 17/name = "ocean_bottom_right"
 17/texture = ExtResource( 33 )
 17/tex_offset = Vector2( 0, 0 )
-17/material = SubResource( 10 )
+17/material = SubResource( 11 )
 17/modulate = Color( 1, 1, 1, 1 )
 17/region = Rect2( 0, 0, 32, 32 )
 17/occluder_offset = Vector2( 0, 0 )
 17/navigation_offset = Vector2( 0, 0 )
+17/navigation = SubResource( 9 )
 17/shape_offset = Vector2( 0, 0 )
 17/shapes = [  ]
 17/one_way_collision_direction = Vector2( 0, 0 )
@@ -707,11 +794,12 @@ shader_param/frame4 = ExtResource( 120 )
 18/name = "ocean_top_left"
 18/texture = ExtResource( 38 )
 18/tex_offset = Vector2( 0, 0 )
-18/material = SubResource( 11 )
+18/material = SubResource( 12 )
 18/modulate = Color( 1, 1, 1, 1 )
 18/region = Rect2( 0, 0, 32, 32 )
 18/occluder_offset = Vector2( 0, 0 )
 18/navigation_offset = Vector2( 0, 0 )
+18/navigation = SubResource( 9 )
 18/shape_offset = Vector2( 0, 0 )
 18/shapes = [  ]
 18/one_way_collision_direction = Vector2( 0, 0 )
@@ -719,11 +807,12 @@ shader_param/frame4 = ExtResource( 120 )
 19/name = "ocean_top_right"
 19/texture = ExtResource( 43 )
 19/tex_offset = Vector2( 0, 0 )
-19/material = SubResource( 12 )
+19/material = SubResource( 13 )
 19/modulate = Color( 1, 1, 1, 1 )
 19/region = Rect2( 0, 0, 32, 32 )
 19/occluder_offset = Vector2( 0, 0 )
 19/navigation_offset = Vector2( 0, 0 )
+19/navigation = SubResource( 9 )
 19/shape_offset = Vector2( 0, 0 )
 19/shapes = [  ]
 19/one_way_collision_direction = Vector2( 0, 0 )
@@ -731,11 +820,12 @@ shader_param/frame4 = ExtResource( 120 )
 20/name = "ocean_light"
 20/texture = ExtResource( 49 )
 20/tex_offset = Vector2( 0, 0 )
-20/material = SubResource( 13 )
+20/material = SubResource( 14 )
 20/modulate = Color( 1, 1, 1, 1 )
 20/region = Rect2( 0, 0, 32, 32 )
 20/occluder_offset = Vector2( 0, 0 )
 20/navigation_offset = Vector2( 0, 0 )
+20/navigation = SubResource( 9 )
 20/shape_offset = Vector2( 0, 0 )
 20/shapes = [  ]
 20/one_way_collision_direction = Vector2( 0, 0 )
@@ -743,11 +833,12 @@ shader_param/frame4 = ExtResource( 120 )
 21/name = "ocean_light_bottom"
 21/texture = ExtResource( 54 )
 21/tex_offset = Vector2( 0, 0 )
-21/material = SubResource( 14 )
+21/material = SubResource( 15 )
 21/modulate = Color( 1, 1, 1, 1 )
 21/region = Rect2( 0, 0, 32, 32 )
 21/occluder_offset = Vector2( 0, 0 )
 21/navigation_offset = Vector2( 0, 0 )
+21/navigation = SubResource( 9 )
 21/shape_offset = Vector2( 0, 0 )
 21/shapes = [  ]
 21/one_way_collision_direction = Vector2( 0, 0 )
@@ -755,11 +846,12 @@ shader_param/frame4 = ExtResource( 120 )
 22/name = "ocean_light_bottom_left"
 22/texture = ExtResource( 59 )
 22/tex_offset = Vector2( 0, 0 )
-22/material = SubResource( 15 )
+22/material = SubResource( 16 )
 22/modulate = Color( 1, 1, 1, 1 )
 22/region = Rect2( 0, 0, 32, 32 )
 22/occluder_offset = Vector2( 0, 0 )
 22/navigation_offset = Vector2( 0, 0 )
+22/navigation = SubResource( 9 )
 22/shape_offset = Vector2( 0, 0 )
 22/shapes = [  ]
 22/one_way_collision_direction = Vector2( 0, 0 )
@@ -767,11 +859,12 @@ shader_param/frame4 = ExtResource( 120 )
 23/name = "ocean_light_bottom_right"
 23/texture = ExtResource( 64 )
 23/tex_offset = Vector2( 0, 0 )
-23/material = SubResource( 16 )
+23/material = SubResource( 17 )
 23/modulate = Color( 1, 1, 1, 1 )
 23/region = Rect2( 0, 0, 32, 32 )
 23/occluder_offset = Vector2( 0, 0 )
 23/navigation_offset = Vector2( 0, 0 )
+23/navigation = SubResource( 9 )
 23/shape_offset = Vector2( 0, 0 )
 23/shapes = [  ]
 23/one_way_collision_direction = Vector2( 0, 0 )
@@ -779,11 +872,12 @@ shader_param/frame4 = ExtResource( 120 )
 24/name = "ocean_light_left"
 24/texture = ExtResource( 69 )
 24/tex_offset = Vector2( 0, 0 )
-24/material = SubResource( 17 )
+24/material = SubResource( 18 )
 24/modulate = Color( 1, 1, 1, 1 )
 24/region = Rect2( 0, 0, 32, 32 )
 24/occluder_offset = Vector2( 0, 0 )
 24/navigation_offset = Vector2( 0, 0 )
+24/navigation = SubResource( 9 )
 24/shape_offset = Vector2( 0, 0 )
 24/shapes = [  ]
 24/one_way_collision_direction = Vector2( 0, 0 )
@@ -791,11 +885,12 @@ shader_param/frame4 = ExtResource( 120 )
 25/name = "ocean_light_right"
 25/texture = ExtResource( 74 )
 25/tex_offset = Vector2( 0, 0 )
-25/material = SubResource( 18 )
+25/material = SubResource( 19 )
 25/modulate = Color( 1, 1, 1, 1 )
 25/region = Rect2( 0, 0, 32, 32 )
 25/occluder_offset = Vector2( 0, 0 )
 25/navigation_offset = Vector2( 0, 0 )
+25/navigation = SubResource( 9 )
 25/shape_offset = Vector2( 0, 0 )
 25/shapes = [  ]
 25/one_way_collision_direction = Vector2( 0, 0 )
@@ -803,11 +898,12 @@ shader_param/frame4 = ExtResource( 120 )
 26/name = "ocean_light_top"
 26/texture = ExtResource( 79 )
 26/tex_offset = Vector2( 0, 0 )
-26/material = SubResource( 19 )
+26/material = SubResource( 20 )
 26/modulate = Color( 1, 1, 1, 1 )
 26/region = Rect2( 0, 0, 32, 32 )
 26/occluder_offset = Vector2( 0, 0 )
 26/navigation_offset = Vector2( 0, 0 )
+26/navigation = SubResource( 9 )
 26/shape_offset = Vector2( 0, 0 )
 26/shapes = [  ]
 26/one_way_collision_direction = Vector2( 0, 0 )
@@ -815,11 +911,12 @@ shader_param/frame4 = ExtResource( 120 )
 27/name = "ocean_light_top_left"
 27/texture = ExtResource( 84 )
 27/tex_offset = Vector2( 0, 0 )
-27/material = SubResource( 20 )
+27/material = SubResource( 21 )
 27/modulate = Color( 1, 1, 1, 1 )
 27/region = Rect2( 0, 0, 32, 32 )
 27/occluder_offset = Vector2( 0, 0 )
 27/navigation_offset = Vector2( 0, 0 )
+27/navigation = SubResource( 9 )
 27/shape_offset = Vector2( 0, 0 )
 27/shapes = [  ]
 27/one_way_collision_direction = Vector2( 0, 0 )
@@ -827,11 +924,12 @@ shader_param/frame4 = ExtResource( 120 )
 28/name = "ocean_light_top_right"
 28/texture = ExtResource( 89 )
 28/tex_offset = Vector2( 0, 0 )
-28/material = SubResource( 21 )
+28/material = SubResource( 22 )
 28/modulate = Color( 1, 1, 1, 1 )
 28/region = Rect2( 0, 0, 32, 32 )
 28/occluder_offset = Vector2( 0, 0 )
 28/navigation_offset = Vector2( 0, 0 )
+28/navigation = SubResource( 9 )
 28/shape_offset = Vector2( 0, 0 )
 28/shapes = [  ]
 28/one_way_collision_direction = Vector2( 0, 0 )
@@ -839,13 +937,27 @@ shader_param/frame4 = ExtResource( 120 )
 29/name = "ocean_to_shoreline"
 29/texture = ExtResource( 94 )
 29/tex_offset = Vector2( 0, 0 )
-29/material = SubResource( 22 )
+29/material = SubResource( 23 )
 29/modulate = Color( 1, 1, 1, 1 )
 29/region = Rect2( 0, 0, 32, 32 )
 29/occluder_offset = Vector2( 0, 0 )
 29/navigation_offset = Vector2( 0, 0 )
+29/navigation = SubResource( 9 )
 29/shape_offset = Vector2( 0, 0 )
 29/shapes = [  ]
 29/one_way_collision_direction = Vector2( 0, 0 )
 29/one_way_collision_max_depth = 0.0
+30/name = "ocean"
+30/texture = ExtResource( 49 )
+30/tex_offset = Vector2( 0, 0 )
+30/material = SubResource( 25 )
+30/modulate = Color( 1, 1, 1, 1 )
+30/region = Rect2( 0, 0, 32, 32 )
+30/occluder_offset = Vector2( 0, 0 )
+30/navigation_offset = Vector2( 0, 0 )
+30/navigation = SubResource( 26 )
+30/shape_offset = Vector2( 0, 0 )
+30/shapes = [  ]
+30/one_way_collision_direction = Vector2( 0, 0 )
+30/one_way_collision_max_depth = 0.0
 
