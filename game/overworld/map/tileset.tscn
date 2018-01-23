@@ -1,4 +1,4 @@
-[gd_scene load_steps=148 format=1]
+[gd_scene load_steps=147 format=1]
 
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/dirt.png" type="Texture" id=1]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/sand.png" type="Texture" id=2]
@@ -166,12 +166,6 @@ shader_param/frame1 = ExtResource( 7 )
 shader_param/frame2 = ExtResource( 8 )
 shader_param/frame3 = ExtResource( 9 )
 shader_param/frame4 = ExtResource( 10 )
-
-[sub_resource type="NavigationPolygon" id=3]
-
-vertices = Vector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
-polygons = [ IntArray( 0, 1, 2, 3 ) ]
-outlines = [ Vector2Array( 32, 32, 0, 32, 0, 0, 32, 0 ) ]
 
 [sub_resource type="CanvasItemMaterial" id=4]
 
@@ -537,16 +531,10 @@ centered = false
 
 [node name="shoreline" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 2 )
 transform/pos = Vector2( 0, 32 )
 texture = ExtResource( 7 )
 centered = false
-
-[node name="NavigationPolygonInstance" type="NavigationPolygonInstance" parent="shoreline"]
-
-navpoly = SubResource( 3 )
-enabled = true
 
 [node name="shoreline_bottom" type="Sprite" parent="."]
 
@@ -606,210 +594,107 @@ centered = false
 
 [node name="shoreline_to_ocean" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 13 )
 transform/pos = Vector2( 288, 32 )
 texture = ExtResource( 43 )
 centered = false
 
-[node name="NavigationPolygonInstance1" type="NavigationPolygonInstance" parent="shoreline_to_ocean"]
-
-transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_bottom_left" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 14 )
 transform/pos = Vector2( 0, 64 )
 texture = ExtResource( 48 )
 centered = false
 
-[node name="NavigationPolygonInstance2" type="NavigationPolygonInstance" parent="ocean_bottom_left"]
-
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_bottom_right" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 15 )
 transform/pos = Vector2( 32, 64 )
 texture = ExtResource( 53 )
 centered = false
 
-[node name="NavigationPolygonInstance3" type="NavigationPolygonInstance" parent="ocean_bottom_right"]
-
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_top_left" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 16 )
 transform/pos = Vector2( 64, 64 )
 texture = ExtResource( 58 )
 centered = false
 
-[node name="NavigationPolygonInstance4" type="NavigationPolygonInstance" parent="ocean_top_left"]
-
-transform/pos = Vector2( -1.90735e-06, -1.90735e-06 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_top_right" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 17 )
 transform/pos = Vector2( 96, 64 )
 texture = ExtResource( 63 )
 centered = false
 
-[node name="NavigationPolygonInstance5" type="NavigationPolygonInstance" parent="ocean_top_right"]
-
-transform/pos = Vector2( -9.53674e-07, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 18 )
 transform/pos = Vector2( 128, 64 )
 texture = ExtResource( 68 )
 centered = false
 
-[node name="NavigationPolygonInstance6" type="NavigationPolygonInstance" parent="ocean_light"]
-
-transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light_bottom" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 19 )
 transform/pos = Vector2( 160, 64 )
 texture = ExtResource( 73 )
 centered = false
 
-[node name="NavigationPolygonInstance7" type="NavigationPolygonInstance" parent="ocean_light_bottom"]
-
-transform/pos = Vector2( -3.57628e-06, -7.15256e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light_bottom_left" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 20 )
 transform/pos = Vector2( 192, 64 )
 texture = ExtResource( 78 )
 centered = false
 
-[node name="NavigationPolygonInstance8" type="NavigationPolygonInstance" parent="ocean_light_bottom_left"]
-
-transform/pos = Vector2( 1.90735e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light_bottom_right" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 21 )
 transform/pos = Vector2( 224, 64 )
 texture = ExtResource( 83 )
 centered = false
 
-[node name="NavigationPolygonInstance9" type="NavigationPolygonInstance" parent="ocean_light_bottom_right"]
-
-transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light_left" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 22 )
 transform/pos = Vector2( 256, 64 )
 texture = ExtResource( 88 )
 centered = false
 
-[node name="NavigationPolygonInstance10" type="NavigationPolygonInstance" parent="ocean_light_left"]
-
-transform/pos = Vector2( 7.62939e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light_right" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 23 )
 transform/pos = Vector2( 288, 64 )
 texture = ExtResource( 93 )
 centered = false
 
-[node name="NavigationPolygonInstance11" type="NavigationPolygonInstance" parent="ocean_light_right"]
-
-transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light_top" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 24 )
 transform/pos = Vector2( 320, 64 )
 texture = ExtResource( 98 )
 centered = false
 
-[node name="NavigationPolygonInstance12" type="NavigationPolygonInstance" parent="ocean_light_top"]
-
-transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light_top_left" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 25 )
 transform/pos = Vector2( 352, 64 )
 texture = ExtResource( 103 )
 centered = false
 
-[node name="NavigationPolygonInstance13" type="NavigationPolygonInstance" parent="ocean_light_top_left"]
-
-transform/pos = Vector2( 7.62939e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_light_top_right" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 26 )
 transform/pos = Vector2( 384, 64 )
 texture = ExtResource( 108 )
 centered = false
 
-[node name="NavigationPolygonInstance14" type="NavigationPolygonInstance" parent="ocean_light_top_right"]
-
-transform/pos = Vector2( -3.8147e-06, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
-
 [node name="ocean_to_shoreline" type="Sprite" parent="."]
 
-editor/display_folded = true
 material/material = SubResource( 27 )
 transform/pos = Vector2( 416, 64 )
 texture = ExtResource( 113 )
 centered = false
-
-[node name="NavigationPolygonInstance15" type="NavigationPolygonInstance" parent="ocean_to_shoreline"]
-
-transform/pos = Vector2( -1.52588e-05, -9.53674e-07 )
-navpoly = SubResource( 3 )
-enabled = true
 
 
