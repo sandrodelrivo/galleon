@@ -4,14 +4,14 @@ var angle = 0
 var speed = 0
 var depressedSpeed = 0 # Speed when ship is rotating
 var rotation_speed = 0.05
-const SPEED_MAX = 50
+const SPEED_MAX = 100
 const SPEED_MIN = 0
 var speedIncrement = 10
 var velocity = Vector2()
 
 func _fixed_process(delta):
 
-	depressedSpeed = speed / 1.3
+	depressedSpeed = speed * 0.75
 	var angle = get_rot()
 
 
@@ -42,21 +42,23 @@ func _fixed_process(delta):
 
 
 func accelerate():
-	print("Accelerate!")
+	#print("Accelerate!")
 	if (speed < SPEED_MAX):
 		speed += speedIncrement
 
 func deccelerate():
-	print("Deccelerate")
+	#print("Deccelerate")
 	if (speed > SPEED_MIN):
 		speed -= speedIncrement
 
 func _input(event):
-	print("Event!")
+	#print("Event!")
 	if (event.is_action_pressed("ui_up")):
 		accelerate()
+		print("Speed: ", speed)
 	elif (event.is_action_pressed("ui_down")):
 		deccelerate()
+		print("Speed: ", speed)
 
 func _ready():
 	print("Player Script Ready!")
