@@ -1,4 +1,4 @@
-[gd_scene load_steps=149 format=1]
+[gd_scene load_steps=145 format=1]
 
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/dirt.png" type="Texture" id=1]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/sand.png" type="Texture" id=2]
@@ -6,121 +6,117 @@
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/hard stone.png" type="Texture" id=4]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/stone.png" type="Texture" id=5]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/grass.png" type="Texture" id=6]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/bot/bot1.png" type="Texture" id=7]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/bot/bot2.png" type="Texture" id=8]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/bot/bot3.png" type="Texture" id=9]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/bot/bot4.png" type="Texture" id=10]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/left/left1.png" type="Texture" id=11]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/left/left2.png" type="Texture" id=12]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/left/left3.png" type="Texture" id=13]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/left/left4.png" type="Texture" id=14]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/right/right1.png" type="Texture" id=15]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/right/right2.png" type="Texture" id=16]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/right/right3.png" type="Texture" id=17]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/right/right4.png" type="Texture" id=18]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/top/top1.png" type="Texture" id=19]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/top/top2.png" type="Texture" id=20]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/top/top3.png" type="Texture" id=21]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/top/top4.png" type="Texture" id=22]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/botleft/botleft1.png" type="Texture" id=23]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/botleft/botleft2.png" type="Texture" id=24]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/botleft/botleft3.png" type="Texture" id=25]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/botleft/botleft4.png" type="Texture" id=26]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/botright/botright1.png" type="Texture" id=27]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/botright/botright2.png" type="Texture" id=28]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/botright/botright3.png" type="Texture" id=29]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/botright/botright4.png" type="Texture" id=30]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/topleft/topleft1.png" type="Texture" id=31]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/topleft/topleft2.png" type="Texture" id=32]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/topleft/topleft3.png" type="Texture" id=33]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/topleft/topleft4.png" type="Texture" id=34]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/topright/topright1.png" type="Texture" id=35]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/topright/topright2.png" type="Texture" id=36]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/topright/topright3.png" type="Texture" id=37]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/diags/topright/topright4.png" type="Texture" id=38]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/botleft/botleft1.png" type="Texture" id=39]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/botleft/botleft2.png" type="Texture" id=40]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/botleft/botleft3.png" type="Texture" id=41]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/botleft/botleft4.png" type="Texture" id=42]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/botright/botright1.png" type="Texture" id=43]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/botright/botright2.png" type="Texture" id=44]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/botright/botright3.png" type="Texture" id=45]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/botright/botright4.png" type="Texture" id=46]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/topleft/topleft1.png" type="Texture" id=47]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/topleft/topleft2.png" type="Texture" id=48]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/topleft/topleft3.png" type="Texture" id=49]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/topleft/topleft4.png" type="Texture" id=50]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/topright/topright1.png" type="Texture" id=51]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/topright/topright2.png" type="Texture" id=52]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/topright/topright3.png" type="Texture" id=53]
-[ext_resource path="res://assets/overworld/map/tiles/suicideshoreline/corners/topright/topright4.png" type="Texture" id=54]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/killmeoceanlite1.png" type="Texture" id=55]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/killmeoceanlite2.png" type="Texture" id=56]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/killmeoceanlite3.png" type="Texture" id=57]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/killmeoceanlite4.png" type="Texture" id=58]
-[ext_resource path="res://assets/overworld/map/tiles/killmeocean/killmeocean1.png" type="Texture" id=59]
-[ext_resource path="res://assets/overworld/map/tiles/killmeocean/killmeocean2.png" type="Texture" id=60]
-[ext_resource path="res://assets/overworld/map/tiles/killmeocean/killmeocean3.png" type="Texture" id=61]
-[ext_resource path="res://assets/overworld/map/tiles/killmeocean/killmeocean4.png" type="Texture" id=62]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/bot/bot1.png" type="Texture" id=63]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/bot/bot2.png" type="Texture" id=64]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/bot/bot3.png" type="Texture" id=65]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/bot/bot4.png" type="Texture" id=66]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/left/left1.png" type="Texture" id=67]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/left/left2.png" type="Texture" id=68]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/left/left3.png" type="Texture" id=69]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/left/left4.png" type="Texture" id=70]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/right/right1.png" type="Texture" id=71]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/right/right2.png" type="Texture" id=72]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/right/right3.png" type="Texture" id=73]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/right/right4.png" type="Texture" id=74]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/top/top1.png" type="Texture" id=75]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/top/top2.png" type="Texture" id=76]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/top/top3.png" type="Texture" id=77]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/top/top4.png" type="Texture" id=78]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotleft/ocean-lightbotleft1.png" type="Texture" id=79]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotleft/ocean-lightbotleft2and8.png" type="Texture" id=80]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotleft/ocean-lightbotleft3and7.png" type="Texture" id=81]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotleft/ocean-lightbotleft4and6.png" type="Texture" id=82]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotleft/ocean-lightbotleft5.png" type="Texture" id=83]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotright/ocean-lightbotright1.png" type="Texture" id=84]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotright/ocean-lightbotright2and8.png" type="Texture" id=85]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotright/ocean-lightbotright3and7.png" type="Texture" id=86]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotright/ocean-lightbotright4and6.png" type="Texture" id=87]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lightbotright/ocean-lightbotright5.png" type="Texture" id=88]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopleft/ocean-lighttopleft1.png" type="Texture" id=89]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopleft/ocean-lighttopleft2and8.png" type="Texture" id=90]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopleft/ocean-lighttopleft3and7.png" type="Texture" id=91]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopleft/ocean-lighttopleft4and6.png" type="Texture" id=92]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopleft/ocean-lighttopleft5.png" type="Texture" id=93]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopright/ocean-lighttopright1.png" type="Texture" id=94]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopright/ocean-lighttopright2and8.png" type="Texture" id=95]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopright/ocean-lighttopright3and7.png" type="Texture" id=96]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopright/ocean-lighttopright4and6.png" type="Texture" id=97]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/ocean-lighttopright/ocean-lighttopright5.png" type="Texture" id=98]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/botleft/botleft1.png" type="Texture" id=99]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/botleft/botleft2.png" type="Texture" id=100]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/botleft/botleft3.png" type="Texture" id=101]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/botleft/botleft4.png" type="Texture" id=102]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/botright/botright1.png" type="Texture" id=103]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/botright/botright2.png" type="Texture" id=104]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/botright/botright3.png" type="Texture" id=105]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/botright/botright4.png" type="Texture" id=106]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/topleft/topleft1.png" type="Texture" id=107]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/topleft/topleft2.png" type="Texture" id=108]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/topleft/topleft3.png" type="Texture" id=109]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/topleft/topleft4.png" type="Texture" id=110]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/topright/topright1.png" type="Texture" id=111]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/topright/topright2.png" type="Texture" id=112]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/topright/topright3.png" type="Texture" id=113]
-[ext_resource path="res://assets/overworld/map/tiles/killmeoceanlite/transitions/corners/topright/topright4.png" type="Texture" id=114]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/bot/bot1.png" type="Texture" id=7]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/bot/bot2.png" type="Texture" id=8]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/bot/bot3.png" type="Texture" id=9]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/bot/bot4.png" type="Texture" id=10]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/left/left1.png" type="Texture" id=11]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/left/left2.png" type="Texture" id=12]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/left/left3.png" type="Texture" id=13]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/left/left4.png" type="Texture" id=14]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/right/right1.png" type="Texture" id=15]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/right/right2.png" type="Texture" id=16]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/right/right3.png" type="Texture" id=17]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/right/right4.png" type="Texture" id=18]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/top/top1.png" type="Texture" id=19]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/top/top2.png" type="Texture" id=20]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/top/top3.png" type="Texture" id=21]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/top/top4.png" type="Texture" id=22]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft1.png" type="Texture" id=23]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft2.png" type="Texture" id=24]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft3.png" type="Texture" id=25]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft4.png" type="Texture" id=26]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright3.png" type="Texture" id=27]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright4.png" type="Texture" id=28]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright1.png" type="Texture" id=29]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright2.png" type="Texture" id=30]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft1.png" type="Texture" id=31]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft2.png" type="Texture" id=32]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft3.png" type="Texture" id=33]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft4.png" type="Texture" id=34]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright1.png" type="Texture" id=35]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright2.png" type="Texture" id=36]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright3.png" type="Texture" id=37]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright4.png" type="Texture" id=38]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft1.png" type="Texture" id=39]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft2.png" type="Texture" id=40]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft3.png" type="Texture" id=41]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft4.png" type="Texture" id=42]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright1.png" type="Texture" id=43]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright2.png" type="Texture" id=44]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright3.png" type="Texture" id=45]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright4.png" type="Texture" id=46]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft1.png" type="Texture" id=47]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft2.png" type="Texture" id=48]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft3.png" type="Texture" id=49]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft4.png" type="Texture" id=50]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright1.png" type="Texture" id=51]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright2.png" type="Texture" id=52]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright3.png" type="Texture" id=53]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright4.png" type="Texture" id=54]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite1.png" type="Texture" id=55]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite2.png" type="Texture" id=56]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite3.png" type="Texture" id=57]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite4.png" type="Texture" id=58]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/dark/killmeocean1.png" type="Texture" id=59]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/dark/killmeocean2.png" type="Texture" id=60]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/dark/killmeocean3.png" type="Texture" id=61]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/dark/killmeocean4.png" type="Texture" id=62]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/bot/bot1.png" type="Texture" id=63]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/bot/bot2.png" type="Texture" id=64]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/bot/bot3.png" type="Texture" id=65]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/bot/bot4.png" type="Texture" id=66]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/left/left1.png" type="Texture" id=67]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/left/left2.png" type="Texture" id=68]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/left/left3.png" type="Texture" id=69]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/left/left4.png" type="Texture" id=70]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/right/right1.png" type="Texture" id=71]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/right/right2.png" type="Texture" id=72]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/right/right3.png" type="Texture" id=73]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/right/right4.png" type="Texture" id=74]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/top/top1.png" type="Texture" id=75]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/top/top2.png" type="Texture" id=76]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/top/top3.png" type="Texture" id=77]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/top/top4.png" type="Texture" id=78]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagbotleft/botleft1.png" type="Texture" id=79]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagbotleft/botleft2.png" type="Texture" id=80]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagbotleft/botleft3.png" type="Texture" id=81]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagbotleft/botleft4.png" type="Texture" id=82]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagbotright/botright1.png" type="Texture" id=83]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagbotright/botright2.png" type="Texture" id=84]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagbotright/botright3.png" type="Texture" id=85]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagbotright/botright4.png" type="Texture" id=86]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopleft/topleft1.png" type="Texture" id=87]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopleft/topleft2.png" type="Texture" id=88]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopleft/topleft3.png" type="Texture" id=89]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopleft/topleft4.png" type="Texture" id=90]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopright/topright1.png" type="Texture" id=91]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopright/topright2.png" type="Texture" id=92]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopright/topright3.png" type="Texture" id=93]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopright/topright4.png" type="Texture" id=94]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/cornbotleft/botleft1.png" type="Texture" id=95]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/cornbotleft/botleft2.png" type="Texture" id=96]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/cornbotleft/botleft3.png" type="Texture" id=97]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/cornbotleft/botleft4.png" type="Texture" id=98]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/cornbotright/botright1.png" type="Texture" id=99]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/cornbotright/botright2.png" type="Texture" id=100]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/cornbotright/botright3.png" type="Texture" id=101]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/cornbotright/botright4.png" type="Texture" id=102]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/corntopleft/topleft1.png" type="Texture" id=103]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/corntopleft/topleft2.png" type="Texture" id=104]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/corntopleft/topleft3.png" type="Texture" id=105]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/corntopleft/topleft4.png" type="Texture" id=106]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/corntopright/topright1.png" type="Texture" id=107]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/corntopright/topright2.png" type="Texture" id=108]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/corntopright/topright3.png" type="Texture" id=109]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/corntopright/topright4.png" type="Texture" id=110]
 
-[sub_resource type="ConvexPolygonShape2D" id=1]
+[sub_resource type="ConvexPolygonShape2D" id=22]
 
 custom_solver_bias = 0.0
 points = Vector2Array( -16, -16, 16, -16, 16, 16, -16, 16 )
 
-[sub_resource type="CanvasItemShader" id=2]
+[sub_resource type="CanvasItemShader" id=23]
 
 _code = {
 "fragment": "uniform texture frame1;
@@ -157,115 +153,115 @@ COLOR = col;",
 "vertex_ofs": 0
 }
 
-[sub_resource type="CanvasItemMaterial" id=3]
+[sub_resource type="CanvasItemMaterial" id=24]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 7 )
 shader_param/frame2 = ExtResource( 8 )
 shader_param/frame3 = ExtResource( 9 )
 shader_param/frame4 = ExtResource( 10 )
 
-[sub_resource type="CanvasItemMaterial" id=4]
+[sub_resource type="CanvasItemMaterial" id=25]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 11 )
 shader_param/frame2 = ExtResource( 12 )
 shader_param/frame3 = ExtResource( 13 )
 shader_param/frame4 = ExtResource( 14 )
 
-[sub_resource type="CanvasItemMaterial" id=5]
+[sub_resource type="CanvasItemMaterial" id=26]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 15 )
 shader_param/frame2 = ExtResource( 16 )
 shader_param/frame3 = ExtResource( 17 )
 shader_param/frame4 = ExtResource( 18 )
 
-[sub_resource type="CanvasItemMaterial" id=6]
+[sub_resource type="CanvasItemMaterial" id=27]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 19 )
 shader_param/frame2 = ExtResource( 20 )
 shader_param/frame3 = ExtResource( 21 )
 shader_param/frame4 = ExtResource( 22 )
 
-[sub_resource type="CanvasItemMaterial" id=7]
+[sub_resource type="CanvasItemMaterial" id=28]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 23 )
 shader_param/frame2 = ExtResource( 24 )
 shader_param/frame3 = ExtResource( 25 )
 shader_param/frame4 = ExtResource( 26 )
 
-[sub_resource type="CanvasItemMaterial" id=8]
+[sub_resource type="CanvasItemMaterial" id=29]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 27 )
 shader_param/frame2 = ExtResource( 28 )
 shader_param/frame3 = ExtResource( 29 )
 shader_param/frame4 = ExtResource( 30 )
 
-[sub_resource type="CanvasItemMaterial" id=9]
+[sub_resource type="CanvasItemMaterial" id=30]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 31 )
 shader_param/frame2 = ExtResource( 32 )
 shader_param/frame3 = ExtResource( 33 )
 shader_param/frame4 = ExtResource( 34 )
 
-[sub_resource type="CanvasItemMaterial" id=10]
+[sub_resource type="CanvasItemMaterial" id=31]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 35 )
 shader_param/frame2 = ExtResource( 36 )
 shader_param/frame3 = ExtResource( 37 )
 shader_param/frame4 = ExtResource( 38 )
 
-[sub_resource type="CanvasItemMaterial" id=11]
+[sub_resource type="CanvasItemMaterial" id=32]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 39 )
 shader_param/frame2 = ExtResource( 40 )
 shader_param/frame3 = ExtResource( 41 )
 shader_param/frame4 = ExtResource( 42 )
 
-[sub_resource type="CanvasItemMaterial" id=12]
+[sub_resource type="CanvasItemMaterial" id=33]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 43 )
 shader_param/frame2 = ExtResource( 44 )
 shader_param/frame3 = ExtResource( 45 )
 shader_param/frame4 = ExtResource( 46 )
 
-[sub_resource type="CanvasItemMaterial" id=13]
+[sub_resource type="CanvasItemMaterial" id=34]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 47 )
 shader_param/frame2 = ExtResource( 48 )
 shader_param/frame3 = ExtResource( 49 )
 shader_param/frame4 = ExtResource( 50 )
 
-[sub_resource type="CanvasItemMaterial" id=14]
+[sub_resource type="CanvasItemMaterial" id=35]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 51 )
 shader_param/frame2 = ExtResource( 52 )
 shader_param/frame3 = ExtResource( 53 )
 shader_param/frame4 = ExtResource( 54 )
 
-[sub_resource type="CanvasItemShader" id=15]
+[sub_resource type="CanvasItemShader" id=36]
 
 _code = {
 "fragment": "uniform texture frame1;
@@ -302,117 +298,34 @@ COLOR = col;",
 "vertex_ofs": 0
 }
 
-[sub_resource type="CanvasItemMaterial" id=16]
+[sub_resource type="CanvasItemMaterial" id=37]
 
-shader/shader = SubResource( 15 )
+shader/shader = SubResource( 36 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 55 )
 shader_param/frame2 = ExtResource( 56 )
 shader_param/frame3 = ExtResource( 57 )
 shader_param/frame4 = ExtResource( 58 )
 
-[sub_resource type="CanvasItemMaterial" id=17]
+[sub_resource type="CanvasItemMaterial" id=38]
 
-shader/shader = SubResource( 15 )
+shader/shader = SubResource( 36 )
 shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 55 )
-shader_param/frame2 = ExtResource( 56 )
-shader_param/frame3 = ExtResource( 57 )
-shader_param/frame4 = ExtResource( 58 )
 
-[sub_resource type="NavigationPolygon" id=18]
+[sub_resource type="NavigationPolygon" id=39]
 
 vertices = Vector2Array( -32, -32, 32, -32, 32, 32, -32, 32 )
 polygons = [ IntArray( 0, 1, 2, 3, 0 ) ]
 outlines = [ Vector2Array( -32, -32, 32, -32, 32, 32, -32, 32, -32, -32 ) ]
 
-[sub_resource type="CanvasItemMaterial" id=19]
+[sub_resource type="CanvasItemMaterial" id=40]
 
-shader/shader = SubResource( 2 )
+shader/shader = SubResource( 23 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 59 )
 shader_param/frame2 = ExtResource( 60 )
 shader_param/frame3 = ExtResource( 61 )
 shader_param/frame4 = ExtResource( 62 )
-
-[sub_resource type="CanvasItemShader" id=30]
-
-_code = {
-"fragment": "uniform texture frame1;
-uniform texture frame2;
-uniform texture frame3;
-uniform texture frame4;
-float frames = 4.0;
-float frameLength = 0.2;
-
-float time = fract(TIME/(frames*frameLength))*frames;
-color col;
-
-if (time < 1) {
-	col = tex(frame1, UV);
-} else{ 
-	if (time < 2) {
-		col = tex(frame2, UV);
-	} else{ 
-		if (time < 3) {
-			col = tex(frame3, UV);
-		} else{ 
-			if (time < 4) {
-				col = tex(frame4, UV);
-			}
-		}
-	}
-}
-
-COLOR = col;",
-"fragment_ofs": 0,
-"light": "",
-"light_ofs": 0,
-"vertex": "",
-"vertex_ofs": 0
-}
-
-[sub_resource type="CanvasItemMaterial" id=31]
-
-shader/shader = SubResource( 30 )
-shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 63 )
-shader_param/frame2 = ExtResource( 64 )
-shader_param/frame3 = ExtResource( 65 )
-shader_param/frame4 = ExtResource( 66 )
-
-[sub_resource type="NavigationPolygon" id=22]
-
-vertices = Vector2Array( -32, -32, 32, -32, 32, 32, -32, 32 )
-polygons = [ IntArray( 0, 1, 2, 3 ) ]
-outlines = [ Vector2Array( -32, -32, 32, -32, 32, 32, -32, 32 ) ]
-
-[sub_resource type="CanvasItemMaterial" id=32]
-
-shader/shader = SubResource( 30 )
-shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 67 )
-shader_param/frame2 = ExtResource( 68 )
-shader_param/frame3 = ExtResource( 69 )
-shader_param/frame4 = ExtResource( 70 )
-
-[sub_resource type="CanvasItemMaterial" id=33]
-
-shader/shader = SubResource( 30 )
-shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 71 )
-shader_param/frame2 = ExtResource( 72 )
-shader_param/frame3 = ExtResource( 73 )
-shader_param/frame4 = ExtResource( 74 )
-
-[sub_resource type="CanvasItemMaterial" id=34]
-
-shader/shader = SubResource( 30 )
-shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 75 )
-shader_param/frame2 = ExtResource( 76 )
-shader_param/frame3 = ExtResource( 77 )
-shader_param/frame4 = ExtResource( 78 )
 
 [sub_resource type="CanvasItemShader" id=20]
 
@@ -421,11 +334,7 @@ _code = {
 uniform texture frame2;
 uniform texture frame3;
 uniform texture frame4;
-uniform texture frame5;
-uniform texture frame6;
-uniform texture frame7;
-uniform texture frame8;
-float frames = 8.0;
+float frames = 4.0;
 float frameLength = 0.2;
 
 float time = fract(TIME/(frames*frameLength))*frames;
@@ -442,29 +351,12 @@ if (time < 1) {
 		} else{ 
 			if (time < 4) {
 				col = tex(frame4, UV);
-			} else{ 
-				if (time < 5) {
-					col = tex(frame5, UV);
-				} else{ 
-					if (time < 6) {
-						col = tex(frame6, UV);
-					} else{ 
-						if (time < 7) {
-							col = tex(frame7, UV);
-						} else{ 
-							if (time < 8) {
-								col = tex(frame8, UV);
-							}
-						}
-					}
-				}
 			}
 		}
 	}
 }
 
-COLOR = col;
-",
+COLOR = col;",
 "fragment_ofs": 0,
 "light": "",
 "light_ofs": 0,
@@ -472,93 +364,156 @@ COLOR = col;
 "vertex_ofs": 0
 }
 
-[sub_resource type="CanvasItemMaterial" id=29]
+[sub_resource type="CanvasItemMaterial" id=21]
 
 shader/shader = SubResource( 20 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 63 )
+shader_param/frame2 = ExtResource( 64 )
+shader_param/frame3 = ExtResource( 65 )
+shader_param/frame4 = ExtResource( 66 )
+
+[sub_resource type="NavigationPolygon" id=41]
+
+vertices = Vector2Array( -32, -32, 32, -32, 32, 32, -32, 32 )
+polygons = [ IntArray( 0, 1, 2, 3 ) ]
+outlines = [ Vector2Array( -32, -32, 32, -32, 32, 32, -32, 32 ) ]
+
+[sub_resource type="CanvasItemMaterial" id=42]
+
+shader/shader = SubResource( 20 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 67 )
+shader_param/frame2 = ExtResource( 68 )
+shader_param/frame3 = ExtResource( 69 )
+shader_param/frame4 = ExtResource( 70 )
+
+[sub_resource type="CanvasItemMaterial" id=43]
+
+shader/shader = SubResource( 20 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 71 )
+shader_param/frame2 = ExtResource( 72 )
+shader_param/frame3 = ExtResource( 73 )
+shader_param/frame4 = ExtResource( 74 )
+
+[sub_resource type="CanvasItemMaterial" id=44]
+
+shader/shader = SubResource( 20 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 75 )
+shader_param/frame2 = ExtResource( 76 )
+shader_param/frame3 = ExtResource( 77 )
+shader_param/frame4 = ExtResource( 78 )
+
+[sub_resource type="CanvasItemShader" id=54]
+
+_code = {
+"fragment": "uniform texture frame1;
+uniform texture frame2;
+uniform texture frame3;
+uniform texture frame4;
+float frames = 4.0;
+float frameLength = 0.2;
+
+float time = fract(TIME/(frames*frameLength))*frames;
+color col;
+
+if (time < 1) {
+	col = tex(frame1, UV);
+} else{ 
+	if (time < 2) {
+		col = tex(frame2, UV);
+	} else{ 
+		if (time < 3) {
+			col = tex(frame3, UV);
+		} else{ 
+			if (time < 4) {
+				col = tex(frame4, UV);
+			}
+		}
+	}
+}
+
+COLOR = col;",
+"fragment_ofs": 0,
+"light": "",
+"light_ofs": 0,
+"vertex": "",
+"vertex_ofs": 0
+}
+
+[sub_resource type="CanvasItemMaterial" id=55]
+
+shader/shader = SubResource( 54 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 79 )
 shader_param/frame2 = ExtResource( 80 )
 shader_param/frame3 = ExtResource( 81 )
 shader_param/frame4 = ExtResource( 82 )
-shader_param/frame5 = ExtResource( 83 )
-shader_param/frame6 = ExtResource( 82 )
-shader_param/frame7 = ExtResource( 81 )
-shader_param/frame8 = ExtResource( 80 )
 
-[sub_resource type="CanvasItemMaterial" id=28]
+[sub_resource type="CanvasItemMaterial" id=56]
+
+shader/shader = SubResource( 54 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 83 )
+shader_param/frame2 = ExtResource( 84 )
+shader_param/frame3 = ExtResource( 85 )
+shader_param/frame4 = ExtResource( 86 )
+
+[sub_resource type="CanvasItemMaterial" id=57]
+
+shader/shader = SubResource( 54 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 87 )
+shader_param/frame2 = ExtResource( 88 )
+shader_param/frame3 = ExtResource( 89 )
+shader_param/frame4 = ExtResource( 90 )
+
+[sub_resource type="CanvasItemMaterial" id=58]
+
+shader/shader = SubResource( 54 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 91 )
+shader_param/frame2 = ExtResource( 92 )
+shader_param/frame3 = ExtResource( 93 )
+shader_param/frame4 = ExtResource( 94 )
+
+[sub_resource type="CanvasItemMaterial" id=50]
 
 shader/shader = SubResource( 20 )
 shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 84 )
-shader_param/frame2 = ExtResource( 85 )
-shader_param/frame3 = ExtResource( 86 )
-shader_param/frame4 = ExtResource( 87 )
-shader_param/frame5 = ExtResource( 88 )
-shader_param/frame6 = ExtResource( 87 )
-shader_param/frame7 = ExtResource( 86 )
-shader_param/frame8 = ExtResource( 85 )
+shader_param/frame1 = ExtResource( 95 )
+shader_param/frame2 = ExtResource( 96 )
+shader_param/frame3 = ExtResource( 97 )
+shader_param/frame4 = ExtResource( 98 )
 
-[sub_resource type="CanvasItemMaterial" id=27]
+[sub_resource type="CanvasItemMaterial" id=51]
 
 shader/shader = SubResource( 20 )
-shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 89 )
-shader_param/frame2 = ExtResource( 90 )
-shader_param/frame3 = ExtResource( 91 )
-shader_param/frame4 = ExtResource( 92 )
-shader_param/frame5 = ExtResource( 93 )
-shader_param/frame6 = ExtResource( 92 )
-shader_param/frame7 = ExtResource( 91 )
-shader_param/frame8 = ExtResource( 90 )
-
-[sub_resource type="CanvasItemMaterial" id=26]
-
-shader/shader = SubResource( 20 )
-shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 94 )
-shader_param/frame2 = ExtResource( 95 )
-shader_param/frame3 = ExtResource( 96 )
-shader_param/frame4 = ExtResource( 97 )
-shader_param/frame5 = ExtResource( 98 )
-shader_param/frame6 = ExtResource( 97 )
-shader_param/frame7 = ExtResource( 96 )
-shader_param/frame8 = ExtResource( 95 )
-
-[sub_resource type="CanvasItemMaterial" id=35]
-
-shader/shader = SubResource( 30 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 99 )
 shader_param/frame2 = ExtResource( 100 )
 shader_param/frame3 = ExtResource( 101 )
 shader_param/frame4 = ExtResource( 102 )
 
-[sub_resource type="CanvasItemMaterial" id=36]
+[sub_resource type="CanvasItemMaterial" id=52]
 
-shader/shader = SubResource( 30 )
+shader/shader = SubResource( 20 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 103 )
 shader_param/frame2 = ExtResource( 104 )
 shader_param/frame3 = ExtResource( 105 )
 shader_param/frame4 = ExtResource( 106 )
 
-[sub_resource type="CanvasItemMaterial" id=37]
+[sub_resource type="CanvasItemMaterial" id=53]
 
-shader/shader = SubResource( 30 )
+shader/shader = SubResource( 20 )
 shader/shading_mode = 0
 shader_param/frame1 = ExtResource( 107 )
 shader_param/frame2 = ExtResource( 108 )
 shader_param/frame3 = ExtResource( 109 )
 shader_param/frame4 = ExtResource( 110 )
-
-[sub_resource type="CanvasItemMaterial" id=38]
-
-shader/shader = SubResource( 30 )
-shader/shading_mode = 0
-shader_param/frame1 = ExtResource( 111 )
-shader_param/frame2 = ExtResource( 112 )
-shader_param/frame3 = ExtResource( 113 )
-shader_param/frame4 = ExtResource( 114 )
 
 [node name="tileset" type="Node"]
 
@@ -577,7 +532,7 @@ texture = ExtResource( 2 )
 
 editor/display_folded = true
 input/pickable = false
-shapes/0/shape = SubResource( 1 )
+shapes/0/shape = SubResource( 22 )
 shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
 shapes/0/trigger = false
 collision/layers = 1
@@ -616,95 +571,95 @@ texture = ExtResource( 6 )
 
 [node name="shoreline_bottom" type="Sprite" parent="."]
 
-material/material = SubResource( 3 )
+material/material = SubResource( 24 )
 transform/pos = Vector2( 16, 48 )
 texture = ExtResource( 7 )
 
 [node name="shoreline_left" type="Sprite" parent="."]
 
-material/material = SubResource( 4 )
+material/material = SubResource( 25 )
 transform/pos = Vector2( 48, 48 )
 texture = ExtResource( 11 )
 
 [node name="shoreline_right" type="Sprite" parent="."]
 
-material/material = SubResource( 5 )
+material/material = SubResource( 26 )
 transform/pos = Vector2( 80, 48 )
 texture = ExtResource( 15 )
 
 [node name="shoreline_top" type="Sprite" parent="."]
 
-material/material = SubResource( 6 )
+material/material = SubResource( 27 )
 transform/pos = Vector2( 112, 48 )
 texture = ExtResource( 19 )
 
-[node name="shoreline_1_bottom_left" type="Sprite" parent="."]
+[node name="shoreline_diagonal_bottom_left" type="Sprite" parent="."]
 
-material/material = SubResource( 7 )
+material/material = SubResource( 28 )
 transform/pos = Vector2( 144, 48 )
 texture = ExtResource( 23 )
 
-[node name="shoreline_1_bottom_right" type="Sprite" parent="."]
+[node name="shoreline_diagonal_bottom_right" type="Sprite" parent="."]
 
-material/material = SubResource( 8 )
+material/material = SubResource( 29 )
 transform/pos = Vector2( 176, 48 )
-texture = ExtResource( 27 )
+texture = ExtResource( 29 )
 
-[node name="shoreline_1_top_left" type="Sprite" parent="."]
+[node name="shoreline_diagonal_top_left" type="Sprite" parent="."]
 
-material/material = SubResource( 9 )
+material/material = SubResource( 30 )
 transform/pos = Vector2( 208, 48 )
 texture = ExtResource( 31 )
 
-[node name="shoreline_1_top_right" type="Sprite" parent="."]
+[node name="shoreline_diagonal_top_right" type="Sprite" parent="."]
 
-material/material = SubResource( 10 )
+material/material = SubResource( 31 )
 transform/pos = Vector2( 240, 48 )
 texture = ExtResource( 35 )
 
-[node name="shoreline_2_bottom_left" type="Sprite" parent="."]
+[node name="shoreline_corner_bottom_left" type="Sprite" parent="."]
 
-material/material = SubResource( 11 )
+material/material = SubResource( 32 )
 transform/pos = Vector2( 272, 48 )
 texture = ExtResource( 39 )
 
-[node name="shoreline_2_bottom_right" type="Sprite" parent="."]
+[node name="shoreline_corner_bottom_right" type="Sprite" parent="."]
 
-material/material = SubResource( 12 )
+material/material = SubResource( 33 )
 transform/pos = Vector2( 304, 48 )
 texture = ExtResource( 43 )
 
-[node name="shoreline_2_top_left" type="Sprite" parent="."]
+[node name="shoreline_corner_top_left" type="Sprite" parent="."]
 
-material/material = SubResource( 13 )
+material/material = SubResource( 34 )
 transform/pos = Vector2( 336, 48 )
 texture = ExtResource( 47 )
 
-[node name="shoreline_2_top_right" type="Sprite" parent="."]
+[node name="shoreline_corner_top_right" type="Sprite" parent="."]
 
-material/material = SubResource( 14 )
+material/material = SubResource( 35 )
 transform/pos = Vector2( 368, 48 )
 texture = ExtResource( 51 )
 
 [node name="ocean_light" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 16 )
+material/material = SubResource( 37 )
 transform/pos = Vector2( 16, 80 )
 texture = ExtResource( 55 )
 
 [node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_light"]
 
 visibility/visible = false
-material/material = SubResource( 17 )
+material/material = SubResource( 38 )
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 18 )
+navpoly = SubResource( 39 )
 enabled = true
 
 [node name="ocean_dark" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 19 )
+material/material = SubResource( 40 )
 transform/pos = Vector2( 48, 80 )
 texture = ExtResource( 59 )
 
@@ -712,13 +667,13 @@ texture = ExtResource( 59 )
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 18 )
+navpoly = SubResource( 39 )
 enabled = true
 
 [node name="ocean_trans_bottom" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 31 )
+material/material = SubResource( 21 )
 transform/pos = Vector2( 16, 112 )
 texture = ExtResource( 63 )
 
@@ -726,13 +681,13 @@ texture = ExtResource( 63 )
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
 [node name="ocean_trans_left" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 32 )
+material/material = SubResource( 42 )
 transform/pos = Vector2( 48, 112 )
 texture = ExtResource( 67 )
 
@@ -740,13 +695,13 @@ texture = ExtResource( 67 )
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
 [node name="ocean_trans_right" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 33 )
+material/material = SubResource( 43 )
 transform/pos = Vector2( 80, 112 )
 texture = ExtResource( 71 )
 
@@ -754,13 +709,13 @@ texture = ExtResource( 71 )
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
 [node name="ocean_trans_top" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 34 )
+material/material = SubResource( 44 )
 transform/pos = Vector2( 112, 112 )
 texture = ExtResource( 75 )
 
@@ -768,119 +723,119 @@ texture = ExtResource( 75 )
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
-[node name="ocean_trans_1_bottom_left" type="Sprite" parent="."]
+[node name="ocean_trans_diagonal_bottom_left" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 29 )
+material/material = SubResource( 55 )
 transform/pos = Vector2( 144, 112 )
 texture = ExtResource( 79 )
 
-[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_1_bottom_left"]
+[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_diagonal_bottom_left"]
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
-[node name="ocean_trans_1_bottom_right" type="Sprite" parent="."]
+[node name="ocean_trans_diagonal_bottom_right" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 28 )
+material/material = SubResource( 56 )
 transform/pos = Vector2( 176, 112 )
-texture = ExtResource( 84 )
+texture = ExtResource( 83 )
 
-[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_1_bottom_right"]
+[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_diagonal_bottom_right"]
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
-[node name="ocean_trans_1_top_left" type="Sprite" parent="."]
+[node name="ocean_trans_diagonal_top_left" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 27 )
+material/material = SubResource( 57 )
 transform/pos = Vector2( 208, 112 )
-texture = ExtResource( 89 )
+texture = ExtResource( 87 )
 
-[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_1_top_left"]
+[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_diagonal_top_left"]
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
-[node name="ocean_trans_1_top_right" type="Sprite" parent="."]
+[node name="ocean_trans_diagonal_top_right" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 26 )
+material/material = SubResource( 58 )
 transform/pos = Vector2( 240, 112 )
-texture = ExtResource( 94 )
+texture = ExtResource( 91 )
 
-[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_1_top_right"]
+[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_diagonal_top_right"]
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
-[node name="ocean_trans_2_bottom_left" type="Sprite" parent="."]
+[node name="ocean_trans_corn_bottom_left" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 35 )
+material/material = SubResource( 50 )
 transform/pos = Vector2( 272, 112 )
+texture = ExtResource( 95 )
+
+[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_corn_bottom_left"]
+
+visibility/visible = false
+transform/scale = Vector2( 0.5, 0.5 )
+navpoly = SubResource( 41 )
+enabled = true
+
+[node name="ocean_trans_corn_bottom_right" type="Sprite" parent="."]
+
+editor/display_folded = true
+material/material = SubResource( 51 )
+transform/pos = Vector2( 304, 112 )
 texture = ExtResource( 99 )
 
-[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_2_bottom_left"]
+[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_corn_bottom_right"]
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
-[node name="ocean_trans_2_bottom_right" type="Sprite" parent="."]
+[node name="ocean_trans_corn_top_left" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 36 )
-transform/pos = Vector2( 304, 112 )
+material/material = SubResource( 52 )
+transform/pos = Vector2( 336, 112 )
 texture = ExtResource( 103 )
 
-[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_2_bottom_right"]
+[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_corn_top_left"]
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
-[node name="ocean_trans_2_top_left" type="Sprite" parent="."]
+[node name="ocean_trans_corn_top_right" type="Sprite" parent="."]
 
 editor/display_folded = true
-material/material = SubResource( 37 )
-transform/pos = Vector2( 336, 112 )
+material/material = SubResource( 53 )
+transform/pos = Vector2( 368, 112 )
 texture = ExtResource( 107 )
 
-[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_2_top_left"]
+[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_corn_top_right"]
 
 visibility/visible = false
 transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
-enabled = true
-
-[node name="ocean_trans_2_top_right" type="Sprite" parent="."]
-
-editor/display_folded = true
-material/material = SubResource( 38 )
-transform/pos = Vector2( 368, 112 )
-texture = ExtResource( 111 )
-
-[node name="nav_poly" type="NavigationPolygonInstance" parent="ocean_trans_2_top_right"]
-
-visibility/visible = false
-transform/scale = Vector2( 0.5, 0.5 )
-navpoly = SubResource( 22 )
+navpoly = SubResource( 41 )
 enabled = true
 
 

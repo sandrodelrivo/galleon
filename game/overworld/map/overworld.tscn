@@ -10,8 +10,10 @@ script/script = ExtResource( 1 )
 
 [node name="map" parent="." instance=ExtResource( 2 )]
 
+transform/pos = Vector2( -919.009, -120.422 )
+
 [node name="player" parent="." instance=ExtResource( 3 )]
 
-transform/pos = Vector2( 527.608, 313.111 )
+transform/pos = Vector2( -3503.36, 896.206 )
 
 
