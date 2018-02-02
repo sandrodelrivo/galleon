@@ -111,7 +111,7 @@
 [ext_resource path="res://assets/overworld/map/tiles/ocean/corntopright/topright3.png" type="Texture" id=109]
 [ext_resource path="res://assets/overworld/map/tiles/ocean/corntopright/topright4.png" type="Texture" id=110]
 
-[sub_resource type="ConvexPolygonShape2D" id=35]
+[sub_resource type="ConvexPolygonShape2D" id=1]
 
 custom_solver_bias = 0.0
 points = Vector2Array( -16, -16, 16, -16, 16, 16, -16, 16 )
@@ -530,7 +530,7 @@ texture = ExtResource( 2 )
 [node name="static_body" type="StaticBody2D" parent="sand"]
 
 input/pickable = false
-shapes/0/shape = SubResource( 35 )
+shapes/0/shape = SubResource( 1 )
 shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
 shapes/0/trigger = false
 collision/layers = 1
