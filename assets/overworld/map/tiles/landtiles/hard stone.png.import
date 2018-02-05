@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/hard stone.png-fc9aba4d5a2a935e9a7e39f3f6e0bc9c.stex"
+
+[deps]
+
+source_file="res://assets/overworld/map/tiles/landtiles/hard stone.png"
+source_md5="8f68deb7ef5985cf22e9f1580cf25cc3"
+
+dest_files=[ "res://.import/hard stone.png-fc9aba4d5a2a935e9a7e39f3f6e0bc9c.stex" ]
+dest_md5="d5bf8e346f1c8c820a95a90e19ad641f"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
