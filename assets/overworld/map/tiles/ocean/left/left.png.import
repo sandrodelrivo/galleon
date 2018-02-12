@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stone.png-28dfd8eb8facbb5b9e19ee6c1f541e14.stex"
+path="res://.import/left.png-a962518f52b360ac42b21aeabfde3110.stex"
 
 [deps]
 
-source_file="res://assets/overworld/map/tiles/landtiles/stone.png"
-source_md5="a926d624adce911cd23c6ea1e5612b83"
+source_file="res://assets/overworld/map/tiles/ocean/left/left.png"
+source_md5="9e639896cc194e80f79a6948955d0193"
 
-dest_files=[ "res://.import/stone.png-28dfd8eb8facbb5b9e19ee6c1f541e14.stex" ]
-dest_md5="313f0cadc1a9196a5c8c3daaf06d19e5"
+dest_files=[ "res://.import/left.png-a962518f52b360ac42b21aeabfde3110.stex" ]
+dest_md5="9d8f9505de59e4285c3e32489242acda"
 
 [params]
 
