@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/diagbotright/botright3.png"
 source_md5="bab6f2e84fef550f4f1127e2f75979c6"
 
 dest_files=[ "res://.import/botright3.png-144b37ff0d5df8800aa91fb192c23111.stex" ]
-dest_md5="bd000376ac2c07b36998fbd5238e32ff"
+dest_md5="03c912948940af654f9ad3d2926ef384"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

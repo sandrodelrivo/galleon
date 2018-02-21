@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/cornbotleft/botleft2.png"
 source_md5="1f135887badb50d8072a079eeb8bb0f0"
 
 dest_files=[ "res://.import/botleft2.png-455847bbb598450c2aa1e78e67893488.stex" ]
-dest_md5="f19c446920e6a2d6ae8799f9ce40d23a"
+dest_md5="6326e45df5a0d471c7e474fd7f01266c"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

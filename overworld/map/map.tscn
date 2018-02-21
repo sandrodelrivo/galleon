@@ -1,33 +1,9 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://overworld/map/tileset.tres" type="TileSet" id=1]
 [ext_resource path="res://overworld/map/map.gd" type="Script" id=2]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite1.png" type="Texture" id=3]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite2.png" type="Texture" id=4]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite3.png" type="Texture" id=5]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite4.png" type="Texture" id=6]
-[ext_resource path="res://overworld/map/tile_player.gd" type="Script" id=7]
 
-[sub_resource type="Animation" id=1]
-
-resource_name = "ocean_light"
-length = 0.8
-loop = true
-step = 0.1
-tracks/0/type = "value"
-tracks/0/path = NodePath(".:tile_set:18/texture")
-tracks/0/interp = 0
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 0.2, 0.4, 0.6 ),
-"transitions": PoolRealArray( 1, 1, 1, 1 ),
-"update": 1,
-"values": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ) ]
-}
-
-[node name="map" type="TileMap" index="0"]
+[node name="map" type="TileMap"]
 
 mode = 0
 tile_set = ExtResource( 1 )
@@ -51,15 +27,6 @@ _sections_unfolded = [ "Cell", "Collision", "Material", "Occluder", "Visibility"
 
 [node name="WestIndies" type="Sprite" parent="." index="0"]
 
-[node name="tile_player" type="AnimationPlayer" parent="." index="1"]
-
-root_node = NodePath("..")
-autoplay = ""
-playback_process_mode = 1
-playback_default_blend_time = 0.0
-playback_speed = 1.0
-anims/ocean_light = SubResource( 1 )
-blend_times = [  ]
-script = ExtResource( 7 )
+_sections_unfolded = [ "Visibility" ]
 
 

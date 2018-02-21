@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/cornbotright/botright3.png"
 source_md5="33f24914ddda7959c6a04094f5bf2b41"
 
 dest_files=[ "res://.import/botright3.png-a3aa89640e4f62a6c77c39d66e647a3f.stex" ]
-dest_md5="bdbc867daec2caa7c01a343f978a5c1c"
+dest_md5="bb0b93ed8212f753c8176f6ed736bda6"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/shoreline/diagbotright/botright3.p
 source_md5="5495697a2328e0c127b3f82596969682"
 
 dest_files=[ "res://.import/botright3.png-8d6d3a97281d5a5502985f800737665c.stex" ]
-dest_md5="89e4cbd786968480b96f387d9d3fc4d6"
+dest_md5="8ce65d8298796eae9545776e34eecc4a"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

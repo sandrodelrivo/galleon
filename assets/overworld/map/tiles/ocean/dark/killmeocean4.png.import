@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/dark/killmeocean4.png"
 source_md5="a2d0b6c02b800ca97e29b8c5aa08f4d3"
 
 dest_files=[ "res://.import/killmeocean4.png-05dcfbb6431c03b612d7f98b7268a63f.stex" ]
-dest_md5="05ab4babdd620a55f12174b06fe4702a"
+dest_md5="4c7a7fa7bb2a5538b61594a8fe3a0716"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

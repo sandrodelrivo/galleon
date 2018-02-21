@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/topright2.png-b7900cac91e0ea993cb0d7a745f7cc9e.stex"
+path="res://.import/portsmall.png-d0e1e205720f614589b89d77c5ccc8aa.stex"
 
 [deps]
 
-source_file="res://assets/overworld/map/tiles/ocean/diagtopright/topright2.png"
-source_md5="f4fe462fe34e6723dfe9940d2f3ae4ef"
+source_file="res://assets/overworld/map/ports/portsmall.png"
+source_md5="56bf7a8b7c7308448ec2e6517f1edf71"
 
-dest_files=[ "res://.import/topright2.png-b7900cac91e0ea993cb0d7a745f7cc9e.stex" ]
-dest_md5="d4ac0c49c70deb1d5b3affddb6ec0eef"
+dest_files=[ "res://.import/portsmall.png-d0e1e205720f614589b89d77c5ccc8aa.stex" ]
+dest_md5="bac076b1b3943fadbaa0280e66e9a656"
 
 [params]
 

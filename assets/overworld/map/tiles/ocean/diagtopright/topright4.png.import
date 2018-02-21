@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/diagtopright/topright4.png"
 source_md5="2eccb0a2d70ca3534672ae5b92b318be"
 
 dest_files=[ "res://.import/topright4.png-fc23baf6f91941ad95599ff9cbc8ab1b.stex" ]
-dest_md5="93222a00e7a98eb335ff35fc1ee3e287"
+dest_md5="02361c3437f34b909fd9869d3c0d0a95"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

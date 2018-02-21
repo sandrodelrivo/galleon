@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/corntopleft/topleft4.png"
 source_md5="fa987482ac9e9cc91d13aaeb5cb7c9a3"
 
 dest_files=[ "res://.import/topleft4.png-354bd43fb2e3fb4a37dd533f13e9d9a4.stex" ]
-dest_md5="b92552f8616d5ffa7bc7239a5e294c95"
+dest_md5="486f09ab0dfbccbdb7b80cfe9d3dbf80"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

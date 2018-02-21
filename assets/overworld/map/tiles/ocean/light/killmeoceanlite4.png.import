@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite4.png"
 source_md5="c2e3ac5dcee73f63d7d0bf8811b22eee"
 
 dest_files=[ "res://.import/killmeoceanlite4.png-5b66e683bec84c403582eef7d4e9bbbc.stex" ]
-dest_md5="04cd45df69c889483d91e9b01e3d8373"
+dest_md5="0a8fd07756623eb984f2a3e93670d39f"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/bot/bot3.png"
 source_md5="9dad714dad717fdee567c0e568d19e3e"
 
 dest_files=[ "res://.import/bot3.png-ad7656caaa6c56bf4a9e70570d8fbdab.stex" ]
-dest_md5="042149ad9bc34819e751a249205642de"
+dest_md5="243d9e04d7eaa5669efa275e0f52a7e4"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

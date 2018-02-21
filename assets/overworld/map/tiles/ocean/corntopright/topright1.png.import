@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/corntopright/topright1.png"
 source_md5="f8f558480562cc756cc1cf7d32cf5656"
 
 dest_files=[ "res://.import/topright1.png-610a386e13ab2c88105d5e4f9cc4f4df.stex" ]
-dest_md5="3f0412d13ad1f550ce02da8dffd77d81"
+dest_md5="cd2866f8330063af606cc260a8839b8d"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

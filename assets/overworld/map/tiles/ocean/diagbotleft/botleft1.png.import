@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/diagbotleft/botleft1.png"
 source_md5="6f4294c46b40d8441c035d94c29a257d"
 
 dest_files=[ "res://.import/botleft1.png-c0ff75e93667b4acdbc32bd3ea1bad4e.stex" ]
-dest_md5="b90fec68738ecfa80cf27f7bacd666b8"
+dest_md5="4ceabc856431b6c8ddc76883b16a44e4"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

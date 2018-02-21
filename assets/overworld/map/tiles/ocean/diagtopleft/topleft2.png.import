@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/ocean/diagtopleft/topleft2.png"
 source_md5="74eb6d43bb679c3f028229ac1bca7256"
 
 dest_files=[ "res://.import/topleft2.png-348526575b8d086ba7611fc6e41dcac1.stex" ]
-dest_md5="b9fde217580daf8be4af369e0be7f08a"
+dest_md5="c44770896c2c4269afa75da0d8dbef3a"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
