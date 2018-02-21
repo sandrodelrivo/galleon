@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft3.png
 source_md5="7edb5a66879ec5521a6c5ad4fd10c2f9"
 
 dest_files=[ "res://.import/botleft3.png-96e5b2e9f9041bf5f36a2a6d12f64f18.stex" ]
-dest_md5="8478397a9580747e77995430be7e89da"
+dest_md5="7438dea119701883a27ce64bbdb48905"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

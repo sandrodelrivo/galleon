@@ -10,7 +10,7 @@
 [ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright1.png" type="Texture" id=8]
 [ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft1.png" type="Texture" id=9]
 [ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright1.png" type="Texture" id=10]
-[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite1.png" type="Texture" id=11]
+[ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite3.png" type="Texture" id=11]
 [ext_resource path="res://assets/overworld/map/tiles/ocean/dark/killmeocean1.png" type="Texture" id=12]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/gravel.png" type="Texture" id=13]
 [ext_resource path="res://assets/overworld/map/tiles/ocean/bot/bot1.png" type="Texture" id=14]
@@ -489,4 +489,5 @@ render_priority = 0
 31/navigation_offset = Vector2( 16, 16 )
 31/navigation = SubResource( 14 )
 31/shapes = [  ]
+_sections_unfolded = [ "18" ]
 

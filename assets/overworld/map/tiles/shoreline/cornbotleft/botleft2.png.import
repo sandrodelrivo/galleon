@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft2.png
 source_md5="b1bb5bf8bef3d03c8705b4777e19f950"
 
 dest_files=[ "res://.import/botleft2.png-654ea9a8a7207353a41d05cbba69b178.stex" ]
-dest_md5="3c55e056a0f8aab9328322572c99d179"
+dest_md5="fbdaed580a526b18e052af57f75df6f0"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

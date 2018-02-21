@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft2.png
 source_md5="a0252ac7aa2c31dea330e662c2b9e773"
 
 dest_files=[ "res://.import/topleft2.png-2b7db28cd8a674d3210aec3003de6c2c.stex" ]
-dest_md5="78047e8bf3501ad34183fa38d42e095b"
+dest_md5="318f67515206603a6bfea5263fb0abc6"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

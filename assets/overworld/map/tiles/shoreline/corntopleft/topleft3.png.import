@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft3.png
 source_md5="b7b87b4b5bbb8ec98844830683ae0dad"
 
 dest_files=[ "res://.import/topleft3.png-fa2706466c2709a5c5f5fa926f43e5d1.stex" ]
-dest_md5="0fc089d5c154406f1b9c1eef5fbc5755"
+dest_md5="604ba69d284067c23d3a2898b019e922"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

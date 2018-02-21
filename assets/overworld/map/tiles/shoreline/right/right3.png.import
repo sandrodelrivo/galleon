@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/shoreline/right/right3.png"
 source_md5="af9619fe3b4df45e76874599ab8c605b"
 
 dest_files=[ "res://.import/right3.png-15ed0a33a1170772f2c6fdf973ff8ac8.stex" ]
-dest_md5="226c694723b55ae4b5df2fd145a226ef"
+dest_md5="3066e89c7e156f3126a9bb6a0a044bd8"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

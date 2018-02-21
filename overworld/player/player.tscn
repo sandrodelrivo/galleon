@@ -1,36 +1,30 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://overworld/player/player.gd" type="Script" id=1]
 [ext_resource path="res://assets/overworld/player/ship.png" type="Texture" id=2]
 [ext_resource path="res://overworld/quest/quest_loader.tscn" type="PackedScene" id=3]
 
-[sub_resource type="ConvexPolygonShape2D" id=1]
-
-custom_solver_bias = 0.0
-points = PoolVector2Array( -2.16109, -3.22479, 17.0989, -3.32947, 18.9831, 0.0201035, 16.8896, 2.95098, -1.95174, 3.16032 )
-
 [node name="Node2D" type="Node2D"]
 
-
-[node name="kinem_body" type="KinematicBody2D" parent="."]
+[node name="kinem_body" type="KinematicBody2D" parent="." index="0"]
 
 input_pickable = false
-shapes/0/shape = SubResource( 1 )
-shapes/0/transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-shapes/0/trigger = false
 collision_layer = 1
 collision_mask = 1
-collision/margin = 0.08
+collision/safe_margin = 0.08
 script = ExtResource( 1 )
+_sections_unfolded = [ "Collision", "Transform", "collision" ]
 
-[node name="Sprite" type="Sprite" parent="kinem_body"]
+[node name="Sprite" type="Sprite" parent="kinem_body" index="0"]
 
-position = Vector2( 10, -1.19249e-07 )
-rotation_deg = -270.0
+position = Vector2( 10, 0 )
+rotation = 1.5708
 texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
 
-[node name="Camera2D" type="Camera2D" parent="kinem_body"]
+[node name="Camera2D" type="Camera2D" parent="kinem_body" index="1"]
 
+position = Vector2( -4.15662, -3.02299 )
 anchor_mode = 1
 rotating = false
 current = true
@@ -39,21 +33,30 @@ limit_left = -10000000
 limit_top = -10000000
 limit_right = 10000000
 limit_bottom = 10000000
-drag_margin/h_enabled = false
-drag_margin/v_enabled = false
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
 smoothing_enabled = true
 smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
 drag_margin_left = 0.1
 drag_margin_top = 0.1
 drag_margin_right = 0.1
 drag_margin_bottom = 0.1
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="kinem_body"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="kinem_body" index="2"]
 
+position = Vector2( -0.447655, -0.204189 )
 build_mode = 0
 polygon = PoolVector2Array( -2.16109, -3.22479, 17.0989, -3.32947, 18.9831, 0.0201035, 16.8896, 2.95098, -1.95174, 3.16032 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+_sections_unfolded = [ "Transform" ]
 
-[node name="quest_loader" parent="." instance=ExtResource( 3 )]
+[node name="quest_loader" parent="." index="1" instance=ExtResource( 3 )]
+
+position = Vector2( -96.7215, 1.32256 )
+
 

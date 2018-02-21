@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bot1.png-39c8cf8a473c8ebb701bca709607da16.stex"
+path="res://.import/ocean_light.png-998527ce7db62688d8740cf32055ce80.stex"
 
 [deps]
 
-source_file="res://assets/overworld/map/tiles/shoreline/bot/bot1.png"
-source_md5="9e8d3770cb8d9aabe1298693c2fd4c1a"
+source_file="res://assets/overworld/map/tiles/ocean/light/ocean_light.png"
+source_md5="113f1f12c4bebf6fa7cee64edcda594a"
 
-dest_files=[ "res://.import/bot1.png-39c8cf8a473c8ebb701bca709607da16.stex" ]
-dest_md5="b761cef33b043f9262d9951d608e0b7a"
+dest_files=[ "res://.import/ocean_light.png-998527ce7db62688d8740cf32055ce80.stex" ]
+dest_md5="e3b7b9a1c5424150842b782bf9903ec3"
 
 [params]
 

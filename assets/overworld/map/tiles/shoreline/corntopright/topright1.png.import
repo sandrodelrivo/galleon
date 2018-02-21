@@ -10,7 +10,7 @@ source_file="res://assets/overworld/map/tiles/shoreline/corntopright/topright1.p
 source_md5="b81c9498b1b02e64d1b493f5932038c0"
 
 dest_files=[ "res://.import/topright1.png-dfe6b5f94b964af9c948723759016aca.stex" ]
-dest_md5="90b6d8a9e9ad8802e3421cd948129e5c"
+dest_md5="3ca7d3c1fcd9d5d8fd3c4083088a0f63"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

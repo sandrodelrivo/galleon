@@ -10,7 +10,7 @@ source_file="res://assets/overworld/player/ship.png"
 source_md5="61ec1f34a9606a63bac1288469a21e36"
 
 dest_files=[ "res://.import/ship.png-4a22b7620ac1f4195c814b419f705dcd.stex" ]
-dest_md5="8103f3d0ca2bc5a92069042e7cf80fa0"
+dest_md5="34d4f0c34e49cfb8134c53527887eeb7"
 
 [params]
 
@@ -19,14 +19,14 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
