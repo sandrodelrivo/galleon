@@ -31,17 +31,18 @@ func _physics_process(delta):
 	var motion = velocity * delta
 	motion = move_and_collide(motion)
 
-
+	if motion != null:
+		print(motion.collider)
 
 
 
 func accelerate():
-	print("Accelerate!")
+	#print("Accelerate!")
 	if (speed < SPEED_MAX):
 		speed += speed_increment
 
 func deccelerate():
-	print("Deccelerate")
+	#print("Deccelerate")
 	if (speed > SPEED_MIN):
 		speed -= speed_increment
 

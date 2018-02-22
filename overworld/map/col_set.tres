@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=147 format=2]
+[gd_resource type="TileSet" load_steps=148 format=2]
 
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/badsand.png" type="Texture" id=1]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/dirt.png" type="Texture" id=2]
@@ -259,7 +259,12 @@ shader_param/frame3 = ExtResource( 37 )
 shader_param/frame4 = ExtResource( 38 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=16]
+[sub_resource type="ConvexPolygonShape2D" id=16]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( -287, -16, -255, -16, -255, 16, -287, 16 )
+
+[sub_resource type="ShaderMaterial" id=17]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -269,7 +274,7 @@ shader_param/frame3 = ExtResource( 41 )
 shader_param/frame4 = ExtResource( 42 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=17]
+[sub_resource type="ShaderMaterial" id=18]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -279,7 +284,7 @@ shader_param/frame3 = ExtResource( 46 )
 shader_param/frame4 = ExtResource( 47 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=18]
+[sub_resource type="ShaderMaterial" id=19]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -289,7 +294,7 @@ shader_param/frame3 = ExtResource( 50 )
 shader_param/frame4 = ExtResource( 51 )
 _sections_unfolded = [ "Resource", "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=19]
+[sub_resource type="ShaderMaterial" id=20]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -299,7 +304,7 @@ shader_param/frame3 = ExtResource( 54 )
 shader_param/frame4 = ExtResource( 55 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=20]
+[sub_resource type="ShaderMaterial" id=21]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -309,7 +314,7 @@ shader_param/frame3 = ExtResource( 58 )
 shader_param/frame4 = ExtResource( 59 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=21]
+[sub_resource type="ShaderMaterial" id=22]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -319,7 +324,7 @@ shader_param/frame3 = ExtResource( 62 )
 shader_param/frame4 = ExtResource( 63 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=22]
+[sub_resource type="ShaderMaterial" id=23]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -329,7 +334,7 @@ shader_param/frame3 = ExtResource( 66 )
 shader_param/frame4 = ExtResource( 67 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=23]
+[sub_resource type="ShaderMaterial" id=24]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -339,7 +344,7 @@ shader_param/frame3 = ExtResource( 70 )
 shader_param/frame4 = ExtResource( 71 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=24]
+[sub_resource type="ShaderMaterial" id=25]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -349,7 +354,7 @@ shader_param/frame3 = ExtResource( 74 )
 shader_param/frame4 = ExtResource( 75 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=25]
+[sub_resource type="ShaderMaterial" id=26]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -359,7 +364,7 @@ shader_param/frame3 = ExtResource( 78 )
 shader_param/frame4 = ExtResource( 79 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=26]
+[sub_resource type="ShaderMaterial" id=27]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -369,7 +374,7 @@ shader_param/frame3 = ExtResource( 82 )
 shader_param/frame4 = ExtResource( 83 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=27]
+[sub_resource type="ShaderMaterial" id=28]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -379,7 +384,7 @@ shader_param/frame3 = ExtResource( 87 )
 shader_param/frame4 = ExtResource( 88 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=28]
+[sub_resource type="ShaderMaterial" id=29]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -389,7 +394,7 @@ shader_param/frame3 = ExtResource( 91 )
 shader_param/frame4 = ExtResource( 92 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=29]
+[sub_resource type="ShaderMaterial" id=30]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -399,12 +404,12 @@ shader_param/frame3 = ExtResource( 97 )
 shader_param/frame4 = ExtResource( 98 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ConvexPolygonShape2D" id=30]
+[sub_resource type="ConvexPolygonShape2D" id=31]
 
 custom_solver_bias = 0.0
 points = PoolVector2Array( -16, -16, 16, -16, 16, 0, -16, 0 )
 
-[sub_resource type="ShaderMaterial" id=31]
+[sub_resource type="ShaderMaterial" id=32]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -414,12 +419,12 @@ shader_param/frame3 = ExtResource( 101 )
 shader_param/frame4 = ExtResource( 102 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ConvexPolygonShape2D" id=32]
+[sub_resource type="ConvexPolygonShape2D" id=33]
 
 custom_solver_bias = 0.0
 points = PoolVector2Array( -16, -32, 0, -32, 0, 32, -16, 32 )
 
-[sub_resource type="ShaderMaterial" id=33]
+[sub_resource type="ShaderMaterial" id=34]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -429,12 +434,12 @@ shader_param/frame3 = ExtResource( 105 )
 shader_param/frame4 = ExtResource( 106 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ConvexPolygonShape2D" id=34]
+[sub_resource type="ConvexPolygonShape2D" id=35]
 
 custom_solver_bias = 0.0
 points = PoolVector2Array( -48, -32, -48, 0, -64, 0, -64, -32 )
 
-[sub_resource type="ShaderMaterial" id=35]
+[sub_resource type="ShaderMaterial" id=36]
 
 render_priority = 0
 shader = SubResource( 2 )
@@ -444,7 +449,7 @@ shader_param/frame3 = ExtResource( 109 )
 shader_param/frame4 = ExtResource( 110 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ConvexPolygonShape2D" id=36]
+[sub_resource type="ConvexPolygonShape2D" id=37]
 
 custom_solver_bias = 0.0
 points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 )
@@ -513,7 +518,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 6/name = "07_shore_b"
 6/texture = ExtResource( 95 )
 6/tex_offset = Vector2( 0, 0 )
-6/material = SubResource( 29 )
+6/material = SubResource( 30 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 0, 0, 32, 32 )
 6/is_autotile = false
@@ -522,13 +527,13 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 6/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 30 ),
+"shape": SubResource( 31 ),
 "shape_transform": Transform2D( 1, 0, 0, 0.625, 16, 32 )
 } ]
 7/name = "08_shore_l"
 7/texture = ExtResource( 99 )
 7/tex_offset = Vector2( 0, 0 )
-7/material = SubResource( 31 )
+7/material = SubResource( 32 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 0, 0, 32, 32 )
 7/is_autotile = false
@@ -537,13 +542,13 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 7/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 32 ),
-"shape_transform": Transform2D( 0.8125, 0, 0, 0.5, 13, 16 )
+"shape": SubResource( 33 ),
+"shape_transform": Transform2D( 0.8125, 0, 0, 0.5, -35.9, 0 )
 } ]
 8/name = "09_shore_r"
 8/texture = ExtResource( 103 )
 8/tex_offset = Vector2( 0, 0 )
-8/material = SubResource( 33 )
+8/material = SubResource( 34 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 0, 0, 32, 32 )
 8/is_autotile = false
@@ -552,13 +557,13 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 8/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 34 ),
-"shape_transform": Transform2D( 0.8125, 0, 0, 1, 71, 32 )
+"shape": SubResource( 35 ),
+"shape_transform": Transform2D( 0.8125, 0, 0, 1, 7.89999, 16 )
 } ]
 9/name = "10_shore_t"
 9/texture = ExtResource( 107 )
 9/tex_offset = Vector2( 0, 0 )
-9/material = SubResource( 35 )
+9/material = SubResource( 36 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 0, 0, 32, 32 )
 9/is_autotile = false
@@ -567,7 +572,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 9/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 36 ),
+"shape": SubResource( 37 ),
 "shape_transform": Transform2D( 0.8125, 0, 0, 0.8125, 7.89999, 9.1 )
 } ]
 10/name = "11_shore_d_bl"
@@ -583,7 +588,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 4 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 64, 49 )
+"shape_transform": Transform2D( 1, 0, 0, 1, 16, 16 )
 } ]
 11/name = "12_shore_d_br"
 11/texture = ExtResource( 7 )
@@ -613,7 +618,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 8 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 63, 48 )
+"shape_transform": Transform2D( 1, 0, 0, 1, 16, 16 )
 } ]
 13/name = "14_shore_d_tr"
 13/texture = ExtResource( 15 )
@@ -628,7 +633,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 10 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 63, 48 )
+"shape_transform": Transform2D( 1, 0, 0, 1, 16, 16 )
 } ]
 14/name = "15_shore_c_bl"
 14/texture = ExtResource( 19 )
@@ -679,11 +684,16 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 18/is_autotile = false
 18/occluder_offset = Vector2( 16, 16 )
 18/navigation_offset = Vector2( 16, 16 )
-18/shapes = [  ]
+18/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 16 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 16, 16 )
+} ]
 19/name = "20_ocean_2"
 19/texture = ExtResource( 39 )
 19/tex_offset = Vector2( 0, 0 )
-19/material = SubResource( 16 )
+19/material = SubResource( 17 )
 19/modulate = Color( 1, 1, 1, 1 )
 19/region = Rect2( 0, 0, 32, 32 )
 19/is_autotile = false
@@ -693,7 +703,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 20/name = "21_ocean_b"
 20/texture = ExtResource( 44 )
 20/tex_offset = Vector2( 0, 0 )
-20/material = SubResource( 17 )
+20/material = SubResource( 18 )
 20/modulate = Color( 1, 1, 1, 1 )
 20/region = Rect2( 0, 0, 32, 32 )
 20/is_autotile = false
@@ -703,7 +713,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 21/name = "22_ocean_l"
 21/texture = ExtResource( 48 )
 21/tex_offset = Vector2( 0, 0 )
-21/material = SubResource( 18 )
+21/material = SubResource( 19 )
 21/modulate = Color( 1, 1, 1, 1 )
 21/region = Rect2( 0, 0, 32, 32 )
 21/is_autotile = false
@@ -713,7 +723,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 22/name = "23_ocean_r"
 22/texture = ExtResource( 52 )
 22/tex_offset = Vector2( 0, 0 )
-22/material = SubResource( 19 )
+22/material = SubResource( 20 )
 22/modulate = Color( 1, 1, 1, 1 )
 22/region = Rect2( 0, 0, 32, 32 )
 22/is_autotile = false
@@ -723,7 +733,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 23/name = "24_ocean_t"
 23/texture = ExtResource( 56 )
 23/tex_offset = Vector2( 0, 0 )
-23/material = SubResource( 20 )
+23/material = SubResource( 21 )
 23/modulate = Color( 1, 1, 1, 1 )
 23/region = Rect2( 0, 0, 32, 32 )
 23/is_autotile = false
@@ -733,7 +743,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 24/name = "25_ocean_c_bl"
 24/texture = ExtResource( 60 )
 24/tex_offset = Vector2( 0, 0 )
-24/material = SubResource( 21 )
+24/material = SubResource( 22 )
 24/modulate = Color( 1, 1, 1, 1 )
 24/region = Rect2( 0, 0, 32, 32 )
 24/is_autotile = false
@@ -743,7 +753,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 25/name = "26_ocean_c_br"
 25/texture = ExtResource( 64 )
 25/tex_offset = Vector2( 0, 0 )
-25/material = SubResource( 22 )
+25/material = SubResource( 23 )
 25/modulate = Color( 1, 1, 1, 1 )
 25/region = Rect2( 0, 0, 32, 32 )
 25/is_autotile = false
@@ -753,7 +763,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 26/name = "27_ocean_c_tl"
 26/texture = ExtResource( 68 )
 26/tex_offset = Vector2( 0, 0 )
-26/material = SubResource( 23 )
+26/material = SubResource( 24 )
 26/modulate = Color( 1, 1, 1, 1 )
 26/region = Rect2( 0, 0, 32, 32 )
 26/is_autotile = false
@@ -763,7 +773,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 27/name = "28_ocean_c_tr"
 27/texture = ExtResource( 72 )
 27/tex_offset = Vector2( 0, 0 )
-27/material = SubResource( 24 )
+27/material = SubResource( 25 )
 27/modulate = Color( 1, 1, 1, 1 )
 27/region = Rect2( 0, 0, 32, 32 )
 27/is_autotile = false
@@ -773,7 +783,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 28/name = "29_ocean_d_bl"
 28/texture = ExtResource( 76 )
 28/tex_offset = Vector2( 0, 0 )
-28/material = SubResource( 25 )
+28/material = SubResource( 26 )
 28/modulate = Color( 1, 1, 1, 1 )
 28/region = Rect2( 0, 0, 32, 32 )
 28/is_autotile = false
@@ -783,7 +793,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 29/name = "30_ocean_d_br"
 29/texture = ExtResource( 80 )
 29/tex_offset = Vector2( 0, 0 )
-29/material = SubResource( 26 )
+29/material = SubResource( 27 )
 29/modulate = Color( 1, 1, 1, 1 )
 29/region = Rect2( 0, 0, 32, 32 )
 29/is_autotile = false
@@ -793,7 +803,7 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 30/name = "31_ocean_d_tl"
 30/texture = ExtResource( 85 )
 30/tex_offset = Vector2( 0, 0 )
-30/material = SubResource( 27 )
+30/material = SubResource( 28 )
 30/modulate = Color( 1, 1, 1, 1 )
 30/region = Rect2( 0, 0, 32, 32 )
 30/is_autotile = false
@@ -803,12 +813,11 @@ points = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 
 31/name = "32_ocean_d_tr"
 31/texture = ExtResource( 89 )
 31/tex_offset = Vector2( 0, 0 )
-31/material = SubResource( 28 )
+31/material = SubResource( 29 )
 31/modulate = Color( 1, 1, 1, 1 )
 31/region = Rect2( 0, 0, 32, 32 )
 31/is_autotile = false
 31/occluder_offset = Vector2( 16, 16 )
 31/navigation_offset = Vector2( 16, 16 )
 31/shapes = [  ]
-_sections_unfolded = [ "18" ]
 

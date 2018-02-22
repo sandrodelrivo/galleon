@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://overworld/map/tileset.tres" type="TileSet" id=1]
+[ext_resource path="res://overworld/map/col_set.tres" type="TileSet" id=1]
 [ext_resource path="res://overworld/map/map.gd" type="Script" id=2]
 [ext_resource path="res://assets/overworld/map/WestIndies.jpg" type="Texture" id=3]
 
-[node name="map" type="TileMap" index="0"]
+[node name="map" type="TileMap"]
 
 mode = 0
 tile_set = ExtResource( 1 )
@@ -31,6 +31,7 @@ __meta__ = {
 
 [node name="WestIndies" type="Sprite" parent="." index="0"]
 
+visible = false
 modulate = Color( 1, 1, 1, 0.33498 )
 scale = Vector2( 2, 2 )
 texture = ExtResource( 3 )

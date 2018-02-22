@@ -7,7 +7,7 @@ path="res://.import/botleft2.png-654ea9a8a7207353a41d05cbba69b178.stex"
 [deps]
 
 source_file="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft2.png"
-source_md5="b1bb5bf8bef3d03c8705b4777e19f950"
+source_md5="22eba496d95d5652ba51f3ca63aa4850"
 
 dest_files=[ "res://.import/botleft2.png-654ea9a8a7207353a41d05cbba69b178.stex" ]
 dest_md5="fbdaed580a526b18e052af57f75df6f0"

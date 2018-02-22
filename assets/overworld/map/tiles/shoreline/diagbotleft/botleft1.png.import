@@ -7,10 +7,10 @@ path="res://.import/botleft1.png-83f66337b246477e835dce8b17183447.stex"
 [deps]
 
 source_file="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft1.png"
-source_md5="4cb6a4d4b0a580002f96c184356de1da"
+source_md5="982ae0fb3eee1c7f4259629e529b6be0"
 
 dest_files=[ "res://.import/botleft1.png-83f66337b246477e835dce8b17183447.stex" ]
-dest_md5="ba82ba9378228bd496db8451b3fe4ea9"
+dest_md5="b49c40369520153dc4cf48e68cf08819"
 
 [params]
 
