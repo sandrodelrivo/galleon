@@ -2,38 +2,38 @@
 
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/badsand.png" type="Texture" id=1]
 [ext_resource path="res://assets/overworld/map/tiles/landtiles/dirt.png" type="Texture" id=2]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft1.png" type="Texture" id=3]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft2.png" type="Texture" id=4]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft3.png" type="Texture" id=5]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft4.png" type="Texture" id=6]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright1.png" type="Texture" id=7]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright2.png" type="Texture" id=8]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright3.png" type="Texture" id=9]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright4.png" type="Texture" id=10]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft1.png" type="Texture" id=11]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft2.png" type="Texture" id=12]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft3.png" type="Texture" id=13]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft4.png" type="Texture" id=14]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright1.png" type="Texture" id=15]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright2.png" type="Texture" id=16]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright3.png" type="Texture" id=17]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright4.png" type="Texture" id=18]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft1.png" type="Texture" id=19]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft2.png" type="Texture" id=20]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft3.png" type="Texture" id=21]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft4.png" type="Texture" id=22]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright1.png" type="Texture" id=23]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright2.png" type="Texture" id=24]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright3.png" type="Texture" id=25]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright4.png" type="Texture" id=26]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft1.png" type="Texture" id=27]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft2.png" type="Texture" id=28]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft3.png" type="Texture" id=29]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft4.png" type="Texture" id=30]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright1.png" type="Texture" id=31]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright2.png" type="Texture" id=32]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright3.png" type="Texture" id=33]
-[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright4.png" type="Texture" id=34]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft1.png" type="Texture" id=3]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft2.png" type="Texture" id=4]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft3.png" type="Texture" id=5]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotleft/botleft4.png" type="Texture" id=6]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright1.png" type="Texture" id=7]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright2.png" type="Texture" id=8]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright3.png" type="Texture" id=9]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagbotright/botright4.png" type="Texture" id=10]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft1.png" type="Texture" id=11]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft2.png" type="Texture" id=12]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft3.png" type="Texture" id=13]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopleft/topleft4.png" type="Texture" id=14]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright1.png" type="Texture" id=15]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright2.png" type="Texture" id=16]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright3.png" type="Texture" id=17]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/diagtopright/topright4.png" type="Texture" id=18]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft1.png" type="Texture" id=19]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft2.png" type="Texture" id=20]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft3.png" type="Texture" id=21]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotleft/botleft4.png" type="Texture" id=22]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright1.png" type="Texture" id=23]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright2.png" type="Texture" id=24]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright3.png" type="Texture" id=25]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/cornbotright/botright4.png" type="Texture" id=26]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft1.png" type="Texture" id=27]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft2.png" type="Texture" id=28]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft3.png" type="Texture" id=29]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopleft/topleft4.png" type="Texture" id=30]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright1.png" type="Texture" id=31]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright2.png" type="Texture" id=32]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright3.png" type="Texture" id=33]
+[ext_resource path="res://assets/overworld/map/tiles/shoreline/corntopright/topright4.png" type="Texture" id=34]
 [ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite1.png" type="Texture" id=35]
 [ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite2.png" type="Texture" id=36]
 [ext_resource path="res://assets/overworld/map/tiles/ocean/light/killmeoceanlite3.png" type="Texture" id=37]
@@ -92,8 +92,8 @@
 [ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopright/topright2.png" type="Texture" id=90]
 [ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopright/topright3.png" type="Texture" id=91]
 [ext_resource path="res://assets/overworld/map/tiles/ocean/diagtopright/topright4.png" type="Texture" id=92]
-[ext_resource path="res://assets/overworld/map/tiles/landtiles/hard stone.png" type="Texture" id=93]
-[ext_resource path="res://assets/overworld/map/tiles/landtiles/stone.png" type="Texture" id=94]
+[ext_resource path="res://assets/overworld/map/tiles/landtiles/stone.png" type="Texture" id=93]
+[ext_resource path="res://assets/overworld/map/tiles/landtiles/hard stone.png" type="Texture" id=94]
 [ext_resource path="res://assets/overworld/map/tiles/shoreline/bot/bot1.png" type="Texture" id=95]
 [ext_resource path="res://assets/overworld/map/tiles/shoreline/bot/bot2.png" type="Texture" id=96]
 [ext_resource path="res://assets/overworld/map/tiles/shoreline/bot/bot3.png" type="Texture" id=97]
@@ -143,7 +143,7 @@ void fragment() {
 	}
 }"
 
-[sub_resource type="ShaderMaterial" id=6]
+[sub_resource type="ShaderMaterial" id=2]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -153,7 +153,7 @@ shader_param/frame3 = ExtResource( 5 )
 shader_param/frame4 = ExtResource( 6 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=7]
+[sub_resource type="ShaderMaterial" id=3]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -163,7 +163,7 @@ shader_param/frame3 = ExtResource( 9 )
 shader_param/frame4 = ExtResource( 10 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=8]
+[sub_resource type="ShaderMaterial" id=4]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -173,7 +173,7 @@ shader_param/frame3 = ExtResource( 13 )
 shader_param/frame4 = ExtResource( 14 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=9]
+[sub_resource type="ShaderMaterial" id=5]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -183,7 +183,7 @@ shader_param/frame3 = ExtResource( 17 )
 shader_param/frame4 = ExtResource( 18 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=10]
+[sub_resource type="ShaderMaterial" id=6]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -193,7 +193,7 @@ shader_param/frame3 = ExtResource( 21 )
 shader_param/frame4 = ExtResource( 22 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=11]
+[sub_resource type="ShaderMaterial" id=7]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -203,7 +203,7 @@ shader_param/frame3 = ExtResource( 25 )
 shader_param/frame4 = ExtResource( 26 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=12]
+[sub_resource type="ShaderMaterial" id=8]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -213,7 +213,7 @@ shader_param/frame3 = ExtResource( 29 )
 shader_param/frame4 = ExtResource( 30 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=13]
+[sub_resource type="ShaderMaterial" id=9]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -223,7 +223,7 @@ shader_param/frame3 = ExtResource( 33 )
 shader_param/frame4 = ExtResource( 34 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=14]
+[sub_resource type="ShaderMaterial" id=10]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -233,7 +233,7 @@ shader_param/frame3 = ExtResource( 37 )
 shader_param/frame4 = ExtResource( 38 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=15]
+[sub_resource type="ShaderMaterial" id=11]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -243,7 +243,7 @@ shader_param/frame3 = ExtResource( 41 )
 shader_param/frame4 = ExtResource( 42 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=16]
+[sub_resource type="ShaderMaterial" id=12]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -253,7 +253,7 @@ shader_param/frame3 = ExtResource( 46 )
 shader_param/frame4 = ExtResource( 47 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=17]
+[sub_resource type="ShaderMaterial" id=13]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -263,7 +263,7 @@ shader_param/frame3 = ExtResource( 50 )
 shader_param/frame4 = ExtResource( 51 )
 _sections_unfolded = [ "Resource", "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=18]
+[sub_resource type="ShaderMaterial" id=14]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -273,7 +273,7 @@ shader_param/frame3 = ExtResource( 54 )
 shader_param/frame4 = ExtResource( 55 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=19]
+[sub_resource type="ShaderMaterial" id=15]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -283,7 +283,7 @@ shader_param/frame3 = ExtResource( 58 )
 shader_param/frame4 = ExtResource( 59 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=20]
+[sub_resource type="ShaderMaterial" id=16]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -293,7 +293,7 @@ shader_param/frame3 = ExtResource( 62 )
 shader_param/frame4 = ExtResource( 63 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=21]
+[sub_resource type="ShaderMaterial" id=17]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -303,7 +303,7 @@ shader_param/frame3 = ExtResource( 66 )
 shader_param/frame4 = ExtResource( 67 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=22]
+[sub_resource type="ShaderMaterial" id=18]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -313,7 +313,7 @@ shader_param/frame3 = ExtResource( 70 )
 shader_param/frame4 = ExtResource( 71 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=23]
+[sub_resource type="ShaderMaterial" id=19]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -323,7 +323,7 @@ shader_param/frame3 = ExtResource( 74 )
 shader_param/frame4 = ExtResource( 75 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=24]
+[sub_resource type="ShaderMaterial" id=20]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -333,7 +333,7 @@ shader_param/frame3 = ExtResource( 78 )
 shader_param/frame4 = ExtResource( 79 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=25]
+[sub_resource type="ShaderMaterial" id=21]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -343,7 +343,7 @@ shader_param/frame3 = ExtResource( 82 )
 shader_param/frame4 = ExtResource( 83 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=26]
+[sub_resource type="ShaderMaterial" id=22]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -353,7 +353,7 @@ shader_param/frame3 = ExtResource( 87 )
 shader_param/frame4 = ExtResource( 88 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=27]
+[sub_resource type="ShaderMaterial" id=23]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -363,7 +363,7 @@ shader_param/frame3 = ExtResource( 91 )
 shader_param/frame4 = ExtResource( 92 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=2]
+[sub_resource type="ShaderMaterial" id=24]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -373,7 +373,7 @@ shader_param/frame3 = ExtResource( 97 )
 shader_param/frame4 = ExtResource( 98 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=3]
+[sub_resource type="ShaderMaterial" id=25]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -383,7 +383,7 @@ shader_param/frame3 = ExtResource( 101 )
 shader_param/frame4 = ExtResource( 102 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=4]
+[sub_resource type="ShaderMaterial" id=26]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -393,7 +393,7 @@ shader_param/frame3 = ExtResource( 105 )
 shader_param/frame4 = ExtResource( 106 )
 _sections_unfolded = [ "shader_param" ]
 
-[sub_resource type="ShaderMaterial" id=5]
+[sub_resource type="ShaderMaterial" id=27]
 
 render_priority = 0
 shader = SubResource( 1 )
@@ -405,7 +405,7 @@ _sections_unfolded = [ "shader_param" ]
 
 [resource]
 
-0/name = "sand"
+0/name = "01_sand"
 0/texture = ExtResource( 1 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
@@ -414,7 +414,7 @@ _sections_unfolded = [ "shader_param" ]
 0/occluder_offset = Vector2( 16, 16 )
 0/navigation_offset = Vector2( 16, 16 )
 0/shapes = [  ]
-1/name = "dirt"
+1/name = "02_dirt"
 1/texture = ExtResource( 2 )
 1/tex_offset = Vector2( 0, 0 )
 1/modulate = Color( 1, 1, 1, 1 )
@@ -423,7 +423,7 @@ _sections_unfolded = [ "shader_param" ]
 1/occluder_offset = Vector2( 16, 16 )
 1/navigation_offset = Vector2( 16, 16 )
 1/shapes = [  ]
-2/name = "grass"
+2/name = "03_grass"
 2/texture = ExtResource( 43 )
 2/tex_offset = Vector2( 0, 0 )
 2/modulate = Color( 1, 1, 1, 1 )
@@ -432,7 +432,7 @@ _sections_unfolded = [ "shader_param" ]
 2/occluder_offset = Vector2( 16, 16 )
 2/navigation_offset = Vector2( 16, 16 )
 2/shapes = [  ]
-3/name = "gravel"
+3/name = "04_gravel"
 3/texture = ExtResource( 84 )
 3/tex_offset = Vector2( 0, 0 )
 3/modulate = Color( 1, 1, 1, 1 )
@@ -441,7 +441,7 @@ _sections_unfolded = [ "shader_param" ]
 3/occluder_offset = Vector2( 16, 16 )
 3/navigation_offset = Vector2( 16, 16 )
 3/shapes = [  ]
-4/name = "hard stone"
+4/name = "05_stone"
 4/texture = ExtResource( 93 )
 4/tex_offset = Vector2( 0, 0 )
 4/modulate = Color( 1, 1, 1, 1 )
@@ -450,7 +450,7 @@ _sections_unfolded = [ "shader_param" ]
 4/occluder_offset = Vector2( 16, 16 )
 4/navigation_offset = Vector2( 16, 16 )
 4/shapes = [  ]
-5/name = "stone"
+5/name = "06_stone_hard"
 5/texture = ExtResource( 94 )
 5/tex_offset = Vector2( 0, 0 )
 5/modulate = Color( 1, 1, 1, 1 )
@@ -459,260 +459,260 @@ _sections_unfolded = [ "shader_param" ]
 5/occluder_offset = Vector2( 16, 16 )
 5/navigation_offset = Vector2( 16, 16 )
 5/shapes = [  ]
-6/name = "shore_b"
+6/name = "07_shore_b"
 6/texture = ExtResource( 95 )
 6/tex_offset = Vector2( 0, 0 )
-6/material = SubResource( 2 )
+6/material = SubResource( 24 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 0, 0, 32, 32 )
 6/is_autotile = false
 6/occluder_offset = Vector2( 16, 16 )
 6/navigation_offset = Vector2( 16, 16 )
 6/shapes = [  ]
-7/name = "shore_l"
+7/name = "08_shore_l"
 7/texture = ExtResource( 99 )
 7/tex_offset = Vector2( 0, 0 )
-7/material = SubResource( 3 )
+7/material = SubResource( 25 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 0, 0, 32, 32 )
 7/is_autotile = false
 7/occluder_offset = Vector2( 16, 16 )
 7/navigation_offset = Vector2( 16, 16 )
 7/shapes = [  ]
-8/name = "shore_r"
+8/name = "09_shore_r"
 8/texture = ExtResource( 103 )
 8/tex_offset = Vector2( 0, 0 )
-8/material = SubResource( 4 )
+8/material = SubResource( 26 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 0, 0, 32, 32 )
 8/is_autotile = false
 8/occluder_offset = Vector2( 16, 16 )
 8/navigation_offset = Vector2( 16, 16 )
 8/shapes = [  ]
-9/name = "shore_t"
+9/name = "10_shore_t"
 9/texture = ExtResource( 107 )
 9/tex_offset = Vector2( 0, 0 )
-9/material = SubResource( 5 )
+9/material = SubResource( 27 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 0, 0, 32, 32 )
 9/is_autotile = false
 9/occluder_offset = Vector2( 16, 16 )
 9/navigation_offset = Vector2( 16, 16 )
 9/shapes = [  ]
-10/name = "shore_c_bl"
+10/name = "11_shore_d_bl"
 10/texture = ExtResource( 3 )
 10/tex_offset = Vector2( 0, 0 )
-10/material = SubResource( 6 )
+10/material = SubResource( 2 )
 10/modulate = Color( 1, 1, 1, 1 )
 10/region = Rect2( 0, 0, 32, 32 )
 10/is_autotile = false
 10/occluder_offset = Vector2( 16, 16 )
 10/navigation_offset = Vector2( 16, 16 )
 10/shapes = [  ]
-11/name = "shore_c_br"
+11/name = "12_shore_d_br"
 11/texture = ExtResource( 7 )
 11/tex_offset = Vector2( 0, 0 )
-11/material = SubResource( 7 )
+11/material = SubResource( 3 )
 11/modulate = Color( 1, 1, 1, 1 )
 11/region = Rect2( 0, 0, 32, 32 )
 11/is_autotile = false
 11/occluder_offset = Vector2( 16, 16 )
 11/navigation_offset = Vector2( 16, 16 )
 11/shapes = [  ]
-12/name = "shore_c_tl"
+12/name = "13_shore_d_tl"
 12/texture = ExtResource( 11 )
 12/tex_offset = Vector2( 0, 0 )
-12/material = SubResource( 8 )
+12/material = SubResource( 4 )
 12/modulate = Color( 1, 1, 1, 1 )
 12/region = Rect2( 0, 0, 32, 32 )
 12/is_autotile = false
 12/occluder_offset = Vector2( 16, 16 )
 12/navigation_offset = Vector2( 16, 16 )
 12/shapes = [  ]
-13/name = "shore_c_tr"
+13/name = "14_shore_d_tr"
 13/texture = ExtResource( 15 )
 13/tex_offset = Vector2( 0, 0 )
-13/material = SubResource( 9 )
+13/material = SubResource( 5 )
 13/modulate = Color( 1, 1, 1, 1 )
 13/region = Rect2( 0, 0, 32, 32 )
 13/is_autotile = false
 13/occluder_offset = Vector2( 16, 16 )
 13/navigation_offset = Vector2( 16, 16 )
 13/shapes = [  ]
-14/name = "shore_d_bl"
+14/name = "15_shore_c_bl"
 14/texture = ExtResource( 19 )
 14/tex_offset = Vector2( 0, 0 )
-14/material = SubResource( 10 )
+14/material = SubResource( 6 )
 14/modulate = Color( 1, 1, 1, 1 )
 14/region = Rect2( 0, 0, 32, 32 )
 14/is_autotile = false
 14/occluder_offset = Vector2( 16, 16 )
 14/navigation_offset = Vector2( 16, 16 )
 14/shapes = [  ]
-15/name = "shore_d_br"
+15/name = "16_shore_c_br"
 15/texture = ExtResource( 23 )
 15/tex_offset = Vector2( 0, 0 )
-15/material = SubResource( 11 )
+15/material = SubResource( 7 )
 15/modulate = Color( 1, 1, 1, 1 )
 15/region = Rect2( 0, 0, 32, 32 )
 15/is_autotile = false
 15/occluder_offset = Vector2( 16, 16 )
 15/navigation_offset = Vector2( 16, 16 )
 15/shapes = [  ]
-16/name = "shore_d_tl"
+16/name = "17_shore_c_tl"
 16/texture = ExtResource( 27 )
 16/tex_offset = Vector2( 0, 0 )
-16/material = SubResource( 12 )
+16/material = SubResource( 8 )
 16/modulate = Color( 1, 1, 1, 1 )
 16/region = Rect2( 0, 0, 32, 32 )
 16/is_autotile = false
 16/occluder_offset = Vector2( 16, 16 )
 16/navigation_offset = Vector2( 16, 16 )
 16/shapes = [  ]
-17/name = "shore_d_tr"
+17/name = "18_shore_c_tr"
 17/texture = ExtResource( 31 )
 17/tex_offset = Vector2( 0, 0 )
-17/material = SubResource( 13 )
+17/material = SubResource( 9 )
 17/modulate = Color( 1, 1, 1, 1 )
 17/region = Rect2( 0, 0, 32, 32 )
 17/is_autotile = false
 17/occluder_offset = Vector2( 16, 16 )
 17/navigation_offset = Vector2( 16, 16 )
 17/shapes = [  ]
-18/name = "ocean_1"
+18/name = "19_ocean_1"
 18/texture = ExtResource( 35 )
 18/tex_offset = Vector2( 0, 0 )
-18/material = SubResource( 14 )
+18/material = SubResource( 10 )
 18/modulate = Color( 1, 1, 1, 1 )
 18/region = Rect2( 0, 0, 32, 32 )
 18/is_autotile = false
 18/occluder_offset = Vector2( 16, 16 )
 18/navigation_offset = Vector2( 16, 16 )
 18/shapes = [  ]
-19/name = "ocean_2"
+19/name = "20_ocean_2"
 19/texture = ExtResource( 39 )
 19/tex_offset = Vector2( 0, 0 )
-19/material = SubResource( 15 )
+19/material = SubResource( 11 )
 19/modulate = Color( 1, 1, 1, 1 )
 19/region = Rect2( 0, 0, 32, 32 )
 19/is_autotile = false
 19/occluder_offset = Vector2( 16, 16 )
 19/navigation_offset = Vector2( 16, 16 )
 19/shapes = [  ]
-20/name = "ocean_b"
+20/name = "21_ocean_b"
 20/texture = ExtResource( 44 )
 20/tex_offset = Vector2( 0, 0 )
-20/material = SubResource( 16 )
+20/material = SubResource( 12 )
 20/modulate = Color( 1, 1, 1, 1 )
 20/region = Rect2( 0, 0, 32, 32 )
 20/is_autotile = false
 20/occluder_offset = Vector2( 16, 16 )
 20/navigation_offset = Vector2( 16, 16 )
 20/shapes = [  ]
-21/name = "ocean_l"
+21/name = "22_ocean_l"
 21/texture = ExtResource( 48 )
 21/tex_offset = Vector2( 0, 0 )
-21/material = SubResource( 17 )
+21/material = SubResource( 13 )
 21/modulate = Color( 1, 1, 1, 1 )
 21/region = Rect2( 0, 0, 32, 32 )
 21/is_autotile = false
 21/occluder_offset = Vector2( 16, 16 )
 21/navigation_offset = Vector2( 16, 16 )
 21/shapes = [  ]
-22/name = "ocean_r"
+22/name = "23_ocean_r"
 22/texture = ExtResource( 52 )
 22/tex_offset = Vector2( 0, 0 )
-22/material = SubResource( 18 )
+22/material = SubResource( 14 )
 22/modulate = Color( 1, 1, 1, 1 )
 22/region = Rect2( 0, 0, 32, 32 )
 22/is_autotile = false
 22/occluder_offset = Vector2( 16, 16 )
 22/navigation_offset = Vector2( 16, 16 )
 22/shapes = [  ]
-23/name = "ocean_t"
+23/name = "24_ocean_t"
 23/texture = ExtResource( 56 )
 23/tex_offset = Vector2( 0, 0 )
-23/material = SubResource( 19 )
+23/material = SubResource( 15 )
 23/modulate = Color( 1, 1, 1, 1 )
 23/region = Rect2( 0, 0, 32, 32 )
 23/is_autotile = false
 23/occluder_offset = Vector2( 16, 16 )
 23/navigation_offset = Vector2( 16, 16 )
 23/shapes = [  ]
-24/name = "ocean_c_bl"
+24/name = "25_ocean_c_bl"
 24/texture = ExtResource( 60 )
 24/tex_offset = Vector2( 0, 0 )
-24/material = SubResource( 20 )
+24/material = SubResource( 16 )
 24/modulate = Color( 1, 1, 1, 1 )
 24/region = Rect2( 0, 0, 32, 32 )
 24/is_autotile = false
 24/occluder_offset = Vector2( 16, 16 )
 24/navigation_offset = Vector2( 16, 16 )
 24/shapes = [  ]
-25/name = "ocean_c_br"
+25/name = "26_ocean_c_br"
 25/texture = ExtResource( 64 )
 25/tex_offset = Vector2( 0, 0 )
-25/material = SubResource( 21 )
+25/material = SubResource( 17 )
 25/modulate = Color( 1, 1, 1, 1 )
 25/region = Rect2( 0, 0, 32, 32 )
 25/is_autotile = false
 25/occluder_offset = Vector2( 16, 16 )
 25/navigation_offset = Vector2( 16, 16 )
 25/shapes = [  ]
-26/name = "ocean_c_tl"
+26/name = "27_ocean_c_tl"
 26/texture = ExtResource( 68 )
 26/tex_offset = Vector2( 0, 0 )
-26/material = SubResource( 22 )
+26/material = SubResource( 18 )
 26/modulate = Color( 1, 1, 1, 1 )
 26/region = Rect2( 0, 0, 32, 32 )
 26/is_autotile = false
 26/occluder_offset = Vector2( 16, 16 )
 26/navigation_offset = Vector2( 16, 16 )
 26/shapes = [  ]
-27/name = "ocean_c_tr"
+27/name = "28_ocean_c_tr"
 27/texture = ExtResource( 72 )
 27/tex_offset = Vector2( 0, 0 )
-27/material = SubResource( 23 )
+27/material = SubResource( 19 )
 27/modulate = Color( 1, 1, 1, 1 )
 27/region = Rect2( 0, 0, 32, 32 )
 27/is_autotile = false
 27/occluder_offset = Vector2( 16, 16 )
 27/navigation_offset = Vector2( 16, 16 )
 27/shapes = [  ]
-28/name = "ocean_d_bl"
+28/name = "29_ocean_d_bl"
 28/texture = ExtResource( 76 )
 28/tex_offset = Vector2( 0, 0 )
-28/material = SubResource( 24 )
+28/material = SubResource( 20 )
 28/modulate = Color( 1, 1, 1, 1 )
 28/region = Rect2( 0, 0, 32, 32 )
 28/is_autotile = false
 28/occluder_offset = Vector2( 16, 16 )
 28/navigation_offset = Vector2( 16, 16 )
 28/shapes = [  ]
-29/name = "ocean_d_br"
+29/name = "30_ocean_d_br"
 29/texture = ExtResource( 80 )
 29/tex_offset = Vector2( 0, 0 )
-29/material = SubResource( 25 )
+29/material = SubResource( 21 )
 29/modulate = Color( 1, 1, 1, 1 )
 29/region = Rect2( 0, 0, 32, 32 )
 29/is_autotile = false
 29/occluder_offset = Vector2( 16, 16 )
 29/navigation_offset = Vector2( 16, 16 )
 29/shapes = [  ]
-30/name = "ocean_d_tl"
+30/name = "31_ocean_d_tl"
 30/texture = ExtResource( 85 )
 30/tex_offset = Vector2( 0, 0 )
-30/material = SubResource( 26 )
+30/material = SubResource( 22 )
 30/modulate = Color( 1, 1, 1, 1 )
 30/region = Rect2( 0, 0, 32, 32 )
 30/is_autotile = false
 30/occluder_offset = Vector2( 16, 16 )
 30/navigation_offset = Vector2( 16, 16 )
 30/shapes = [  ]
-31/name = "ocean_d_tr"
+31/name = "32_ocean_d_tr"
 31/texture = ExtResource( 89 )
 31/tex_offset = Vector2( 0, 0 )
-31/material = SubResource( 27 )
+31/material = SubResource( 23 )
 31/modulate = Color( 1, 1, 1, 1 )
 31/region = Rect2( 0, 0, 32, 32 )
 31/is_autotile = false
