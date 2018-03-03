@@ -16,6 +16,7 @@ tile_set = ExtResource( 3 )
 
 [node name="player" parent="." index="1" instance=ExtResource( 4 )]
 
+position = Vector2( 388.892, 61.8007 )
 _sections_unfolded = [ "Transform", "Z Index" ]
 
 

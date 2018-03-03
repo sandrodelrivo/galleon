@@ -495,20 +495,20 @@ constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
+_sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="07_shore_b/StaticBody2D2" index="0"]
 
-position = Vector2( 0, 16 )
-scale = Vector2( 1, 0.625 )
 build_mode = 0
-polygon = PoolVector2Array( -16, -16, 16, -16, 16, 0, -16, 0 )
+polygon = PoolVector2Array( 16, 6, 16, 16, -16, 16, -16, 6 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="08_shore_l" type="Sprite" parent="." index="8"]
 
 material = SubResource( 3 )
 position = Vector2( 48, 48 )
 texture = ExtResource( 11 )
-_sections_unfolded = [ "Material" ]
+_sections_unfolded = [ "Material", "Transform" ]
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="08_shore_l" index="0"]
 
@@ -523,10 +523,10 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="08_shore_l/StaticBody2D3" index="0"]
 
-position = Vector2( -3, 0 )
 scale = Vector2( 0.8125, 0.5 )
 build_mode = 0
-polygon = PoolVector2Array( -16, -32, 0, -32, 0, 32, -16, 32 )
+polygon = PoolVector2Array( -7.38462, -32, -7.38462, 32, -19.6923, 32, -19.6923, -32 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="09_shore_r" type="Sprite" parent="." index="9"]
 
@@ -548,10 +548,8 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="09_shore_r/StaticBody2D4" index="0"]
 
-position = Vector2( 55, 16 )
-scale = Vector2( 0.8125, 1 )
 build_mode = 0
-polygon = PoolVector2Array( -48, -32, -48, 0, -64, 0, -64, -32 )
+polygon = PoolVector2Array( 16, -16, 16, 16, 6, 16, 6, -16 )
 
 [node name="10_shore_t" type="Sprite" parent="." index="10"]
 
@@ -562,7 +560,6 @@ _sections_unfolded = [ "Material" ]
 
 [node name="StaticBody2D5" type="StaticBody2D" parent="10_shore_t" index="0"]
 
-position = Vector2( 48, 16 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -570,13 +567,12 @@ constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
+_sections_unfolded = [ "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="10_shore_t/StaticBody2D5" index="0"]
 
-position = Vector2( -8.10001, -6.9 )
-scale = Vector2( 0.8125, 0.8125 )
 build_mode = 0
-polygon = PoolVector2Array( -29.4154, -32, -29.4154, -16, -68.8, -16, -68.8, -32 )
+polygon = PoolVector2Array( -16, -16, 16, -16, 16, -6, -16, -6 )
 
 [node name="11_shore_d_bl" type="Sprite" parent="." index="11"]
 
@@ -598,9 +594,8 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="11_shore_d_bl/StaticBody2D6" index="0"]
 
-position = Vector2( 48, 33 )
 build_mode = 0
-polygon = PoolVector2Array( -64, -48, -56, -48, -32, -24, -32, -16, -64, -16 )
+polygon = PoolVector2Array( -9, -16, 16, 9, 16, 16, -16, 16, -16, -16 )
 
 [node name="12_shore_d_br" type="Sprite" parent="." index="12"]
 
@@ -622,9 +617,8 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="12_shore_d_br/StaticBody2D7" index="0"]
 
-position = Vector2( 48, 33 )
 build_mode = 0
-polygon = PoolVector2Array( -64, -16, -32, -16, -32, -21, -32, -48, -40, -48, -64, -24 )
+polygon = PoolVector2Array( 7, -16, 16, -16, 16, 16, -16, 16, -16, 9 )
 
 [node name="13_shore_d_tl" type="Sprite" parent="." index="13"]
 
@@ -646,9 +640,8 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="13_shore_d_tl/StaticBody2D8" index="0"]
 
-position = Vector2( 47, 32 )
 build_mode = 0
-polygon = PoolVector2Array( -32, -48, -32, -40, -55, -16, -64, -16, -64, -48 )
+polygon = PoolVector2Array( 16, -16, 16, -8, -7, 16, -16, 16, -16, -16 )
 
 [node name="14_shore_d_tr" type="Sprite" parent="." index="14"]
 
@@ -670,9 +663,8 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="14_shore_d_tr/StaticBody2D9" index="0"]
 
-position = Vector2( 47, 32 )
 build_mode = 0
-polygon = PoolVector2Array( -63, -48, -31, -48, -31, -16, -39, -16, -63, -40 )
+polygon = PoolVector2Array( -16, -16, 16, -16, 16, 16, 8, 16, -16, -8 )
 
 [node name="15_shore_c_bl" type="Sprite" parent="." index="15"]
 
@@ -681,12 +673,44 @@ position = Vector2( 272, 48 )
 texture = ExtResource( 39 )
 _sections_unfolded = [ "Material" ]
 
+[node name="StaticBody2D" type="StaticBody2D" parent="15_shore_c_bl" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="15_shore_c_bl/StaticBody2D" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -6, 16, -17, 6, -17, 16 )
+
 [node name="16_shore_c_br" type="Sprite" parent="." index="16"]
 
 material = SubResource( 11 )
 position = Vector2( 304, 48 )
 texture = ExtResource( 43 )
 _sections_unfolded = [ "Material" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="16_shore_c_br" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="16_shore_c_br/StaticBody2D" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( 16, 6, 16, 16, 6, 16 )
 
 [node name="17_shore_c_tl" type="Sprite" parent="." index="17"]
 
@@ -695,12 +719,44 @@ position = Vector2( 336, 48 )
 texture = ExtResource( 47 )
 _sections_unfolded = [ "Material" ]
 
+[node name="StaticBody2D" type="StaticBody2D" parent="17_shore_c_tl" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="17_shore_c_tl/StaticBody2D" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -6, -16, -16, -7, -16, -16 )
+
 [node name="18_shore_c_tr" type="Sprite" parent="." index="18"]
 
 material = SubResource( 13 )
 position = Vector2( 368, 48 )
 texture = ExtResource( 51 )
 _sections_unfolded = [ "Material" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="18_shore_c_tr" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Collision", "Transform" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="18_shore_c_tr/StaticBody2D" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( 16, -16, 16, -6, 6, -16 )
 
 [node name="19_ocean_1" type="Sprite" parent="." index="19"]
 
